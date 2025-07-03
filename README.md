@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 这是ROS2humble版本运行下面的代码需要提前做的准备(使用RVIZ和Gazebo仿真)
 ## 仿真视频
 https://www.bilibili.com/video/BV1tMoiYYERN/?spm_id_from=333.1387.homepage.video_card.click&vd_source=a54d7b70061d23cd9317111e80b3830b
@@ -93,3 +94,6 @@ sudo apt install ros-humble-nav2-map-server
 ros2 run nav2_map_server map_saver_cli -f room
 ```
 ------------------
+=======
+# ROS_ROBOT
+>>>>>>> 1ff43fe19b84ebd979c67345ebb4d7bd63b6a635
