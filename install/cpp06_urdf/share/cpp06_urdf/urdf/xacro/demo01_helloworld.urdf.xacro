@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot name="my_car" xmlns:xacro="http://wiki.ros.org/xacro">
+  <!-- 参数定义 -->
+  <xacro:property name="wheel_radius" value="0.025" />
+  <xacro:property name="wheel_length" value="0.02" />
+  <xacro:property name="PI" value="3.1415927" />
+
+  <!-- 轮子宏定义 -->
+  <xacro:macro name="wheel_func" params="wheel_name">
+    <link name="${wheel_name}_wheel">
+      <visual>
+        <geometry>
+          <!-- 修正：使用预定义属性而非宏参数 -->
+          <cylinder radius="${wheel_radius}" length="${wheel_length}"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="${PI/2} 0 0"/>
+        <material name="wheel_color">
+          <color rgba="0 0 0 0.3"/>
+        </material>
+      </visual>
+    </link>
+  </xacro:macro> 
+
+  <!-- 宏调用 -->
+  <xacro:wheel_func wheel_name="left_front"/>
+  <xacro:wheel_func wheel_name="left_back"/>
+  <xacro:wheel_func wheel_name="right_front"/>
+  <xacro:wheel_func wheel_name="right_back"/> 
+</robot>

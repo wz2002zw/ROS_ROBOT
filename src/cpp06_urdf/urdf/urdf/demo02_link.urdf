@@ -1,0 +1,31 @@
+<!-- 
+需求:分别生成长方体、圆柱与球体的机器人部件。
+-->
+<robot name="demo02_link">
+    <material name="yellow">
+        <color rgba="0.8 0.6 0.2 1.0"/>
+    </material>
+    <link name="base_link">
+        <!-- 描述link的外观 -->
+        <visual>
+            <!-- 形状 -->
+            <geometry>
+                <!-- <box size="0.5 0.3 0.2"/> -->
+                <!-- 球状 -->
+                <!-- <sphere radius="0.5"/> -->
+                <!-- 圆柱 -->
+                <!-- <cylinder radius="0.1" length="2.0"/> -->
+                <mesh filename="package://cpp06_urdf/meshes/burger_base.stl" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <!-- 平移量和旋转度 -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <!-- 颜色 -->
+        <!--<material name="yellow">
+                <color rgba="0.8 0.6 0.2 0.5"/>
+            </material> -->
+            <material name="yellow" />
+        </visual>
+        
+    </link>
+    
+</robot>

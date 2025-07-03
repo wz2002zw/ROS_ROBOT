@@ -1,0 +1,50 @@
+[2.007s] Invoking command in '/home/wz/Desktop/NanoRobot/src/car_application': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_application build --build-base /home/wz/Desktop/NanoRobot/build/car_application/build install --record /home/wz/Desktop/NanoRobot/build/car_application/install.log --single-version-externally-managed install_data
+[2.843s] running egg_info
+[2.843s] creating ../../build/car_application/car_application.egg-info
+[2.844s] writing ../../build/car_application/car_application.egg-info/PKG-INFO
+[2.844s] writing dependency_links to ../../build/car_application/car_application.egg-info/dependency_links.txt
+[2.844s] writing entry points to ../../build/car_application/car_application.egg-info/entry_points.txt
+[2.851s] writing requirements to ../../build/car_application/car_application.egg-info/requires.txt
+[2.853s] writing top-level names to ../../build/car_application/car_application.egg-info/top_level.txt
+[2.853s] writing manifest file '../../build/car_application/car_application.egg-info/SOURCES.txt'
+[2.857s] reading manifest file '../../build/car_application/car_application.egg-info/SOURCES.txt'
+[2.857s] adding license file 'LICENSE'
+[2.864s] writing manifest file '../../build/car_application/car_application.egg-info/SOURCES.txt'
+[2.864s] running build
+[2.864s] running build_py
+[2.866s] creating /home/wz/Desktop/NanoRobot/build/car_application/build
+[2.866s] creating /home/wz/Desktop/NanoRobot/build/car_application/build/lib
+[2.866s] creating /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application
+[2.866s] copying car_application/init_robot_pose.py -> /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application
+[2.866s] copying car_application/get_robot_pose.py -> /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application
+[2.866s] copying car_application/waypoint_follower.py -> /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application
+[2.866s] copying car_application/__init__.py -> /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application
+[2.866s] copying car_application/nav_to_pose.py -> /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application
+[2.866s] running install
+[2.866s] running install_lib
+[2.874s] creating /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application
+[2.874s] copying /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application/init_robot_pose.py -> /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application
+[2.874s] copying /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application/get_robot_pose.py -> /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application
+[2.874s] copying /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application/waypoint_follower.py -> /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application
+[2.874s] copying /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application/__init__.py -> /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application
+[2.874s] copying /home/wz/Desktop/NanoRobot/build/car_application/build/lib/car_application/nav_to_pose.py -> /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application
+[2.876s] byte-compiling /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application/init_robot_pose.py to init_robot_pose.cpython-310.pyc
+[2.878s] byte-compiling /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application/get_robot_pose.py to get_robot_pose.cpython-310.pyc
+[2.879s] byte-compiling /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application/waypoint_follower.py to waypoint_follower.cpython-310.pyc
+[2.881s] byte-compiling /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application/__init__.py to __init__.cpython-310.pyc
+[2.890s] byte-compiling /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[2.890s] running install_data
+[2.890s] creating /home/wz/Desktop/NanoRobot/install/car_application/share/ament_index
+[2.890s] creating /home/wz/Desktop/NanoRobot/install/car_application/share/ament_index/resource_index
+[2.890s] creating /home/wz/Desktop/NanoRobot/install/car_application/share/ament_index/resource_index/packages
+[2.890s] copying resource/car_application -> /home/wz/Desktop/NanoRobot/install/car_application/share/ament_index/resource_index/packages
+[2.890s] copying package.xml -> /home/wz/Desktop/NanoRobot/install/car_application/share/car_application
+[2.890s] running install_egg_info
+[2.896s] Copying ../../build/car_application/car_application.egg-info to /home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages/car_application-0.0.0-py3.10.egg-info
+[2.896s] running install_scripts
+[2.979s] Installing get_robot_pose script to /home/wz/Desktop/NanoRobot/install/car_application/lib/car_application
+[2.979s] Installing init_robot_pose script to /home/wz/Desktop/NanoRobot/install/car_application/lib/car_application
+[2.979s] Installing nav_to_pose script to /home/wz/Desktop/NanoRobot/install/car_application/lib/car_application
+[2.979s] Installing waypoint_follower script to /home/wz/Desktop/NanoRobot/install/car_application/lib/car_application
+[2.979s] writing list of installed files to '/home/wz/Desktop/NanoRobot/build/car_application/install.log'
+[3.086s] Invoked command in '/home/wz/Desktop/NanoRobot/src/car_application' returned '0': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_application build --build-base /home/wz/Desktop/NanoRobot/build/car_application/build install --record /home/wz/Desktop/NanoRobot/build/car_application/install.log --single-version-externally-managed install_data

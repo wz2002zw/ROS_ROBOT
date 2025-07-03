@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+   <xacro:include filename="$(find cpp06_urdf)/urdf/xacro/common_inertia.xacro"/>
+
+    <xacro:property name="PI" value="3.1415927" />
+    <xacro:property name="caster_radius" value="0.01" />
+    <!-- 关节的偏移量 -->
+    <xacro:property name="caster_joint_x" value="-0.08" />
+    <xacro:property name="caster_joint_y" value="0" />
+    <xacro:property name="caster_joint_z" value="${-(car_height / 2 + distance - caster_radius)}" />
+    <!-- 设置link和joint -->
+    <link name="caster">
+        <visual>
+            <geometry>
+                <sphere radius="${caster_radius}"/> 
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="${caster_radius}"/>  
+            </geometry> 
+        </collision>
+        <xacro:sphere_inertia m="0.01" r="${caster_radius}" />
+    </link>
+
+    <joint name="caster2base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="caster"/>
+        <origin xyz="${caster_joint_x} ${caster_joint_y} ${caster_joint_z} "/>
+    </joint>
+
+    <gazebo reference="caster">
+        <mu1 value="0.0" />
+        <mu2 value="0.0" />
+        <kp value="1000000000.0" />
+        <kd value="1.0" />
+    </gazebo>
+
+</robot>

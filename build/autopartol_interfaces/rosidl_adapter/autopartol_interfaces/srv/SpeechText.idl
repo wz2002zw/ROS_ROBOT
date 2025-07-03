@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autopartol_interfaces/srv/SpeechText.srv
+// generated code does not contain a copyright notice
+
+
+module autopartol_interfaces {
+  module srv {
+    struct SpeechText_Request {
+      string text;
+    };
+    struct SpeechText_Response {
+      boolean result;
+    };
+  };
+};

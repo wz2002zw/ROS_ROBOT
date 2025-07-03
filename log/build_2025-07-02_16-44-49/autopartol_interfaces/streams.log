@@ -1,0 +1,235 @@
+[0.005s] Invoking command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/autopartol_interfaces -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/autopartol_interfaces
+[0.322s] -- The C compiler identification is GNU 11.4.0
+[0.534s] -- The CXX compiler identification is GNU 11.4.0
+[0.548s] -- Detecting C compiler ABI info
+[0.649s] -- Detecting C compiler ABI info - done
+[0.655s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.656s] -- Detecting C compile features
+[0.658s] -- Detecting C compile features - done
+[0.664s] -- Detecting CXX compiler ABI info
+[0.762s] -- Detecting CXX compiler ABI info - done
+[0.768s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.768s] -- Detecting CXX compile features
+[0.768s] -- Detecting CXX compile features - done
+[0.779s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.986s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.159s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.283s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.293s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.318s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.426s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.911s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.717s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.131s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.213s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.217s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.323s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.323s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.323s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.323s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.354s] -- Found PythonExtra: .so  
+[3.415s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.431s] -- Configuring done
+[3.496s] -- Generating done
+[3.513s] -- Build files have been written to: /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+[3.532s] Invoked command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/autopartol_interfaces -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/autopartol_interfaces
+[3.533s] Invoking command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/autopartol_interfaces -- -j2 -l2
+[3.656s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.680s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.417s] [  6%] Built target autopartol_interfaces__cpp
+[4.483s] [  6%] Built target ament_cmake_python_copy_autopartol_interfaces
+[4.502s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.756s] [ 12%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o[0m
+[5.022s] [ 16%] [32m[1mLinking C shared library libautopartol_interfaces__rosidl_generator_c.so[0m
+[5.184s] [ 19%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp.o[0m
+[5.190s] [ 19%] Built target autopartol_interfaces__rosidl_generator_c
+[5.230s] [ 22%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.819s] [ 25%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopartol_interfaces/srv/detail/speech_text__type_support.cpp.o[0m
+[6.627s] [ 29%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.719s] [ 32%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[6.821s] [ 32%] Built target autopartol_interfaces__rosidl_typesupport_introspection_cpp
+[6.838s] [ 35%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.951s] [ 35%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.988s] [ 38%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.438s] [ 41%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopartol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[8.014s] [ 45%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopartol_interfaces/srv/detail/speech_text__type_support_c.cpp.o[0m
+[8.280s] [ 48%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_cpp.so[0m
+[8.437s] [ 48%] Built target autopartol_interfaces__rosidl_typesupport_cpp
+[8.841s] [ 51%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[9.103s] [ 51%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_c
+[9.145s] [ 54%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[9.243s] running egg_info
+[9.244s] creating autopartol_interfaces.egg-info
+[9.244s] writing autopartol_interfaces.egg-info/PKG-INFO
+[9.244s] writing dependency_links to autopartol_interfaces.egg-info/dependency_links.txt
+[9.244s] writing top-level names to autopartol_interfaces.egg-info/top_level.txt
+[9.244s] writing manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[9.244s] reading manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[9.244s] writing manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[9.300s] [ 54%] Built target ament_cmake_python_build_autopartol_interfaces_egg
+[9.323s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.085s] [ 61%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopartol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[10.100s] [ 64%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopartol_interfaces/srv/detail/speech_text__type_support.c.o[0m
+[10.175s] [ 67%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_c.so[0m
+[10.193s] [ 70%] [32m[1mLinking C shared library libautopartol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[10.283s] [ 70%] Built target autopartol_interfaces__rosidl_typesupport_introspection_c
+[10.290s] [ 70%] Built target autopartol_interfaces__rosidl_typesupport_c
+[10.316s] [ 70%] Built target autopartol_interfaces
+[10.336s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.101s] [ 74%] Built target autopartol_interfaces__py
+[11.117s] [ 77%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopartol_interfaces/srv/_speech_text_s.c.o[0m
+[11.286s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/libautopartol_interfaces__rosidl_generator_py.so[0m
+[11.323s] [ 80%] Built target autopartol_interfaces__rosidl_generator_py
+[11.353s] [ 83%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[11.355s] [ 87%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[11.431s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.445s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.479s] [ 93%] Built target autopartol_interfaces__rosidl_typesupport_introspection_c__pyext
+[11.492s] [ 93%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[11.501s] [ 96%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[11.578s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[11.606s] [100%] Built target autopartol_interfaces__rosidl_typesupport_c__pyext
+[11.619s] Invoked command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/autopartol_interfaces -- -j2 -l2
+[11.619s] Invoking command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+[11.628s] -- Install configuration: ""
+[11.628s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopartol_interfaces
+[11.628s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[11.628s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/speech_text.h
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.h
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__functions.c
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__struct.h
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__functions.h
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/library_path.sh
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/library_path.dsv
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_c.so
+[11.629s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_c.so" to ""
+[11.629s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[11.629s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[11.629s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[11.629s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.629s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.632s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[11.632s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[11.632s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[11.632s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/speech_text.hpp
+[11.632s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[11.632s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.hpp
+[11.632s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__struct.hpp
+[11.632s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__traits.hpp
+[11.632s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__builder.hpp
+[11.632s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[11.633s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.633s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[11.633s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[11.633s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[11.633s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[11.633s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/dds_fastrtps
+[11.633s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[11.633s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[11.633s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.633s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[11.633s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[11.634s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[11.634s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[11.634s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[11.634s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.c
+[11.634s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg
+[11.638s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.638s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_c.so
+[11.639s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_c.so
+[11.639s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_c.so" to ""
+[11.639s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces
+[11.639s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv
+[11.639s] -- Up-to-date: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.cpp
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.639s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_cpp.so
+[11.639s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_cpp.so" to ""
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/pythonpath.sh
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/pythonpath.dsv
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_c.c
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text.py
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/__init__.py
+[11.639s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text_s.c
+[11.642s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.642s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/libautopartol_interfaces__rosidl_generator_py.so
+[11.642s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[11.642s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/__init__.py
+[11.642s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[11.642s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.677s] Listing '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces'...
+[11.677s] Compiling '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/__init__.py'...
+[11.678s] Listing '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv'...
+[11.678s] Compiling '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/__init__.py'...
+[11.678s] Compiling '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text.py'...
+[11.681s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[11.681s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.682s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[11.682s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.683s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[11.683s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[11.684s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_py.so
+[11.684s] -- Set runtime path of "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_py.so" to ""
+[11.684s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText.idl
+[11.684s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText.srv
+[11.685s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText_Request.msg
+[11.685s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText_Response.msg
+[11.685s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopartol_interfaces
+[11.685s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopartol_interfaces
+[11.685s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/ament_prefix_path.sh
+[11.685s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/ament_prefix_path.dsv
+[11.686s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/path.sh
+[11.686s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/environment/path.dsv
+[11.686s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.bash
+[11.686s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.sh
+[11.686s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.zsh
+[11.687s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.dsv
+[11.687s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.dsv
+[11.687s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/ament_index/resource_index/packages/autopartol_interfaces
+[11.687s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cExport.cmake
+[11.687s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.687s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.688s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.688s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cppExport.cmake
+[11.688s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.688s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.688s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.689s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.689s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cExport.cmake
+[11.689s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.689s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.689s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.690s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cppExport.cmake
+[11.690s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.690s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_pyExport.cmake
+[11.690s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.690s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.690s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.691s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.691s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.691s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.691s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.691s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.692s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfacesConfig.cmake
+[11.692s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfacesConfig-version.cmake
+[11.692s] -- Installing: /home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.xml
+[11.696s] Invoked command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/autopartol_interfaces

@@ -1,0 +1,467 @@
+[0.296s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.297s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f59262a4550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f59262a4100>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f59262a4100>>)
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.543s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.543s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wz/Desktop/NanoRobot'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_interfaces) by extension 'ros'
+[0.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_interfaces' with type 'ros.ament_cmake' and name 'autopartol_interfaces'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/autopartol_robot) by extension 'ros'
+[0.576s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autopartol_robot' with type 'ros.ament_python' and name 'autopartol_robot'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extension 'ignore_ament_install'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extensions ['colcon_pkg']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_application) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_application' with type 'ros.ament_python' and name 'car_application'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_navigation2) by extension 'ros'
+[0.578s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_navigation2' with type 'ros.ament_cmake' and name 'car_navigation2'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_urdf) by extension 'ros'
+[0.580s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp06_urdf' with type 'ros.ament_cmake' and name 'cpp06_urdf'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_moveit_config) by extension 'ros'
+[0.582s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_moveit_config' with type 'ros.ament_cmake' and name 'test_moveit_config'
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.582s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.604s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.607s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/wz/NanoRobot/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.607s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/Desktop/NanoRobot/install/test_moveit_config' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/Desktop/NanoRobot/install/cpp06_urdf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/Desktop/NanoRobot/install/car_navigation2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/Desktop/NanoRobot/install/car_application' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/Desktop/NanoRobot/install/autopartol_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/NanoRobot/install/arm_tset3' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/NanoRobot/install/cpp06_urdf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/NanoRobot/install/car_navigation2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/NanoRobot/install/car_application' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/NanoRobot/install/autopartol_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.608s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/wz/NanoRobot/install/autopartol_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.610s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/Desktop/NanoRobot/install/test_moveit_config' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.611s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/Desktop/NanoRobot/install/cpp06_urdf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.611s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/Desktop/NanoRobot/install/car_navigation2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.611s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.611s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/NanoRobot/install/arm_tset3' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.611s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/NanoRobot/install/cpp06_urdf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.611s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/NanoRobot/install/car_navigation2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.611s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/wz/NanoRobot/install/autopartol_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.613s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/wz/Desktop/NanoRobot/install
+[0.614s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/wz/install
+[0.614s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/wz/elite_robot_ros2/install
+[0.615s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/wz/workspace/install
+[0.616s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 428 installed packages in /opt/ros/humble
+[0.618s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.673s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces', 'merge_install': False, 'path': '/home/wz/Desktop/NanoRobot/src/autopartol_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.673s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'autopartol_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'autopartol_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wz/Desktop/NanoRobot/build/autopartol_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wz/Desktop/NanoRobot/install/autopartol_robot', 'merge_install': False, 'path': '/home/wz/Desktop/NanoRobot/src/autopartol_robot', 'symlink_install': False, 'test_result_base': None}
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_application' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.674s] DEBUG:colcon.colcon_core.verb:Building package 'car_application' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wz/Desktop/NanoRobot/build/car_application', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wz/Desktop/NanoRobot/install/car_application', 'merge_install': False, 'path': '/home/wz/Desktop/NanoRobot/src/car_application', 'symlink_install': False, 'test_result_base': None}
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.674s] Level 5:colcon.colcon_core.verb:set package 'car_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.675s] DEBUG:colcon.colcon_core.verb:Building package 'car_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wz/Desktop/NanoRobot/build/car_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wz/Desktop/NanoRobot/install/car_navigation2', 'merge_install': False, 'path': '/home/wz/Desktop/NanoRobot/src/car_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_target' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'cpp06_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.675s] DEBUG:colcon.colcon_core.verb:Building package 'cpp06_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wz/Desktop/NanoRobot/build/cpp06_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wz/Desktop/NanoRobot/install/cpp06_urdf', 'merge_install': False, 'path': '/home/wz/Desktop/NanoRobot/src/cpp06_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.675s] Level 5:colcon.colcon_core.verb:set package 'test_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.675s] DEBUG:colcon.colcon_core.verb:Building package 'test_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wz/Desktop/NanoRobot/build/test_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wz/Desktop/NanoRobot/install/test_moveit_config', 'merge_install': False, 'path': '/home/wz/Desktop/NanoRobot/src/test_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.675s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.676s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.677s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wz/Desktop/NanoRobot/src/cpp06_urdf' with build type 'ament_cmake'
+[0.677s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wz/Desktop/NanoRobot/src/cpp06_urdf'
+[0.682s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wz/Desktop/NanoRobot/src/autopartol_interfaces' with build type 'ament_cmake'
+[0.687s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wz/Desktop/NanoRobot/src/autopartol_interfaces'
+[0.687s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.687s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.694s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/autopartol_interfaces -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/autopartol_interfaces
+[0.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/cpp06_urdf
+[2.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/cpp06_urdf -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/cpp06_urdf
+[2.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/cpp06_urdf -- -j2 -l2
+[2.088s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/cpp06_urdf -- -j2 -l2
+[2.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/cpp06_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/cpp06_urdf
+[2.316s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_urdf)
+[2.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/cpp06_urdf
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf' for CMake module files
+[2.328s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf' for CMake config files
+[2.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_urdf', 'cmake_prefix_path')
+[2.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.dsv'
+[2.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.sh'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/bin'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/lib/pkgconfig/cpp06_urdf.pc'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/lib/python3.10/site-packages'
+[2.336s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/bin'
+[2.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.ps1'
+[2.341s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.dsv'
+[2.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.sh'
+[2.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.bash'
+[2.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.zsh'
+[2.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/colcon-core/packages/cpp06_urdf)
+[2.350s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_urdf)
+[2.350s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf' for CMake module files
+[2.351s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf' for CMake config files
+[2.351s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_urdf', 'cmake_prefix_path')
+[2.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.ps1'
+[2.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.dsv'
+[2.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/hook/cmake_prefix_path.sh'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/bin'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/lib/pkgconfig/cpp06_urdf.pc'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/lib/python3.10/site-packages'
+[2.356s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/bin'
+[2.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.ps1'
+[2.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.dsv'
+[2.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.sh'
+[2.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.bash'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/cpp06_urdf/package.zsh'
+[2.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/cpp06_urdf/share/colcon-core/packages/cpp06_urdf)
+[2.360s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wz/Desktop/NanoRobot/src/autopartol_robot' with build type 'ament_python'
+[2.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'ament_prefix_path')
+[2.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.ps1'
+[2.361s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.dsv'
+[2.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/hook/ament_prefix_path.sh'
+[2.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.786s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wz/Desktop/NanoRobot/src/autopartol_robot'
+[2.786s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.787s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/src/autopartol_robot': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/wz/Desktop/NanoRobot/build/autopartol_robot/build install --record /home/wz/Desktop/NanoRobot/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[4.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/autopartol_interfaces -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/autopartol_interfaces
+[4.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/autopartol_interfaces -- -j2 -l2
+[4.699s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_robot' for CMake module files
+[4.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/src/autopartol_robot' returned '0': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/wz/Desktop/NanoRobot/build/autopartol_robot/build install --record /home/wz/Desktop/NanoRobot/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[4.703s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_robot' for CMake config files
+[4.703s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_robot/lib'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_robot/bin'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/pkgconfig/autopartol_robot.pc'
+[4.704s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages'
+[4.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_robot', 'pythonpath')
+[4.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.ps1'
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.dsv'
+[4.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/hook/pythonpath.sh'
+[4.714s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_robot/bin'
+[4.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_robot)
+[4.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/package.ps1'
+[4.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/package.dsv'
+[4.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/package.sh'
+[4.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/package.bash'
+[4.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/package.zsh'
+[4.723s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/autopartol_robot/share/colcon-core/packages/autopartol_robot)
+[4.724s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/wz/Desktop/NanoRobot/src/car_application' with build type 'ament_python'
+[4.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_application', 'ament_prefix_path')
+[4.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/hook/ament_prefix_path.ps1'
+[4.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/hook/ament_prefix_path.dsv'
+[4.728s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/hook/ament_prefix_path.sh'
+[4.728s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.728s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.612s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/wz/Desktop/NanoRobot/src/car_application'
+[5.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/src/car_application': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_application build --build-base /home/wz/Desktop/NanoRobot/build/car_application/build install --record /home/wz/Desktop/NanoRobot/build/car_application/install.log --single-version-externally-managed install_data
+[7.805s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_application' for CMake module files
+[7.808s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_application' for CMake config files
+[7.808s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_application/lib'
+[7.809s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_application/bin'
+[7.809s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_application/lib/pkgconfig/car_application.pc'
+[7.809s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages'
+[7.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_application', 'pythonpath')
+[7.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/hook/pythonpath.ps1'
+[7.813s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/src/car_application' returned '0': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/car_application build --build-base /home/wz/Desktop/NanoRobot/build/car_application/build install --record /home/wz/Desktop/NanoRobot/build/car_application/install.log --single-version-externally-managed install_data
+[7.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/hook/pythonpath.dsv'
+[7.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/hook/pythonpath.sh'
+[7.816s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_application/bin'
+[7.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_application)
+[7.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/package.ps1'
+[7.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/package.dsv'
+[7.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/package.sh'
+[7.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/package.bash'
+[7.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_application/share/car_application/package.zsh'
+[7.824s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/car_application/share/colcon-core/packages/car_application)
+[7.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wz/Desktop/NanoRobot/src/car_navigation2' with build type 'ament_cmake'
+[7.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wz/Desktop/NanoRobot/src/car_navigation2'
+[7.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/car_navigation2 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/car_navigation2
+[9.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/car_navigation2 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/car_navigation2
+[9.861s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/car_navigation2 -- -j2 -l2
+[9.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/car_navigation2 -- -j2 -l2
+[9.958s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/car_navigation2
+[10.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_navigation2)
+[10.046s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2' for CMake module files
+[10.047s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2' for CMake config files
+[10.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigation2', 'cmake_prefix_path')
+[10.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.ps1'
+[10.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.dsv'
+[10.051s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/car_navigation2
+[10.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.sh'
+[10.055s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/bin'
+[10.055s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/lib/pkgconfig/car_navigation2.pc'
+[10.058s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/lib/python3.10/site-packages'
+[10.058s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/bin'
+[10.059s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.ps1'
+[10.060s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.dsv'
+[10.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.sh'
+[10.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.bash'
+[10.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.zsh'
+[10.068s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/car_navigation2/share/colcon-core/packages/car_navigation2)
+[10.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_navigation2)
+[10.069s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2' for CMake module files
+[10.072s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2' for CMake config files
+[10.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_navigation2', 'cmake_prefix_path')
+[10.073s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.ps1'
+[10.076s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.dsv'
+[10.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/hook/cmake_prefix_path.sh'
+[10.078s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/bin'
+[10.078s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/lib/pkgconfig/car_navigation2.pc'
+[10.079s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/lib/python3.10/site-packages'
+[10.079s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/car_navigation2/bin'
+[10.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.ps1'
+[10.083s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.dsv'
+[10.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.sh'
+[10.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.bash'
+[10.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.zsh'
+[10.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/car_navigation2/share/colcon-core/packages/car_navigation2)
+[10.089s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wz/Desktop/NanoRobot/src/test_moveit_config' with build type 'ament_cmake'
+[10.089s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wz/Desktop/NanoRobot/src/test_moveit_config'
+[10.090s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.090s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/test_moveit_config': CMAKE_PREFIX_PATH=/home/wz/Desktop/NanoRobot/install/cpp06_urdf:/home/wz/Desktop/NanoRobot/install/test_moveit_config:/home/wz/Desktop/NanoRobot/install/car_navigation2:/home/wz/Desktop/NanoRobot/install/autopartol_interfaces:/home/wz/NanoRobot/install/arm_tset3:/home/wz/NanoRobot/install/cpp06_urdf:/home/wz/NanoRobot/install/car_navigation2:/home/wz/NanoRobot/install/autopartol_interfaces:/home/wz/workspace/install/arm_urdf:/home/wz/workspace/install/arm_test:/home/wz/workspace/install/arm_control_test2:/home/wz/workspace/install/arm_control_test:/home/wz/elite_robot_ros2/install/elite_ec66_moveit_config:/home/wz/elite_robot_ros2/install/elite_description:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/test_moveit_config -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/test_moveit_config
+[11.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/test_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/wz/Desktop/NanoRobot/install/cpp06_urdf:/home/wz/Desktop/NanoRobot/install/test_moveit_config:/home/wz/Desktop/NanoRobot/install/car_navigation2:/home/wz/Desktop/NanoRobot/install/autopartol_interfaces:/home/wz/NanoRobot/install/arm_tset3:/home/wz/NanoRobot/install/cpp06_urdf:/home/wz/NanoRobot/install/car_navigation2:/home/wz/NanoRobot/install/autopartol_interfaces:/home/wz/workspace/install/arm_urdf:/home/wz/workspace/install/arm_test:/home/wz/workspace/install/arm_control_test2:/home/wz/workspace/install/arm_control_test:/home/wz/elite_robot_ros2/install/elite_ec66_moveit_config:/home/wz/elite_robot_ros2/install/elite_description:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/test_moveit_config -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/test_moveit_config
+[11.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/test_moveit_config': CMAKE_PREFIX_PATH=/home/wz/Desktop/NanoRobot/install/cpp06_urdf:/home/wz/Desktop/NanoRobot/install/test_moveit_config:/home/wz/Desktop/NanoRobot/install/car_navigation2:/home/wz/Desktop/NanoRobot/install/autopartol_interfaces:/home/wz/NanoRobot/install/arm_tset3:/home/wz/NanoRobot/install/cpp06_urdf:/home/wz/NanoRobot/install/car_navigation2:/home/wz/NanoRobot/install/autopartol_interfaces:/home/wz/workspace/install/arm_urdf:/home/wz/workspace/install/arm_test:/home/wz/workspace/install/arm_control_test2:/home/wz/workspace/install/arm_control_test:/home/wz/elite_robot_ros2/install/elite_ec66_moveit_config:/home/wz/elite_robot_ros2/install/elite_description:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/test_moveit_config -- -j2 -l2
+[11.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/test_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/wz/Desktop/NanoRobot/install/cpp06_urdf:/home/wz/Desktop/NanoRobot/install/test_moveit_config:/home/wz/Desktop/NanoRobot/install/car_navigation2:/home/wz/Desktop/NanoRobot/install/autopartol_interfaces:/home/wz/NanoRobot/install/arm_tset3:/home/wz/NanoRobot/install/cpp06_urdf:/home/wz/NanoRobot/install/car_navigation2:/home/wz/NanoRobot/install/autopartol_interfaces:/home/wz/workspace/install/arm_urdf:/home/wz/workspace/install/arm_test:/home/wz/workspace/install/arm_control_test2:/home/wz/workspace/install/arm_control_test:/home/wz/elite_robot_ros2/install/elite_ec66_moveit_config:/home/wz/elite_robot_ros2/install/elite_description:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/test_moveit_config -- -j2 -l2
+[11.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/test_moveit_config': CMAKE_PREFIX_PATH=/home/wz/Desktop/NanoRobot/install/cpp06_urdf:/home/wz/Desktop/NanoRobot/install/test_moveit_config:/home/wz/Desktop/NanoRobot/install/car_navigation2:/home/wz/Desktop/NanoRobot/install/autopartol_interfaces:/home/wz/NanoRobot/install/arm_tset3:/home/wz/NanoRobot/install/cpp06_urdf:/home/wz/NanoRobot/install/car_navigation2:/home/wz/NanoRobot/install/autopartol_interfaces:/home/wz/workspace/install/arm_urdf:/home/wz/workspace/install/arm_test:/home/wz/workspace/install/arm_control_test2:/home/wz/workspace/install/arm_control_test:/home/wz/elite_robot_ros2/install/elite_ec66_moveit_config:/home/wz/elite_robot_ros2/install/elite_description:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/test_moveit_config
+[11.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_moveit_config)
+[11.689s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config' for CMake module files
+[11.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/test_moveit_config' returned '0': CMAKE_PREFIX_PATH=/home/wz/Desktop/NanoRobot/install/cpp06_urdf:/home/wz/Desktop/NanoRobot/install/test_moveit_config:/home/wz/Desktop/NanoRobot/install/car_navigation2:/home/wz/Desktop/NanoRobot/install/autopartol_interfaces:/home/wz/NanoRobot/install/arm_tset3:/home/wz/NanoRobot/install/cpp06_urdf:/home/wz/NanoRobot/install/car_navigation2:/home/wz/NanoRobot/install/autopartol_interfaces:/home/wz/workspace/install/arm_urdf:/home/wz/workspace/install/arm_test:/home/wz/workspace/install/arm_control_test2:/home/wz/workspace/install/arm_control_test:/home/wz/elite_robot_ros2/install/elite_ec66_moveit_config:/home/wz/elite_robot_ros2/install/elite_description:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/test_moveit_config
+[11.690s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config' for CMake config files
+[11.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_moveit_config', 'cmake_prefix_path')
+[11.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/hook/cmake_prefix_path.ps1'
+[11.691s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/hook/cmake_prefix_path.dsv'
+[11.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/hook/cmake_prefix_path.sh'
+[11.692s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/bin'
+[11.692s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/lib/pkgconfig/test_moveit_config.pc'
+[11.692s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/lib/python3.10/site-packages'
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/bin'
+[11.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.ps1'
+[11.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.dsv'
+[11.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.sh'
+[11.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.bash'
+[11.695s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.zsh'
+[11.696s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/colcon-core/packages/test_moveit_config)
+[11.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_moveit_config)
+[11.697s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config' for CMake module files
+[11.700s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config' for CMake config files
+[11.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_moveit_config', 'cmake_prefix_path')
+[11.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/hook/cmake_prefix_path.ps1'
+[11.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/hook/cmake_prefix_path.dsv'
+[11.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/hook/cmake_prefix_path.sh'
+[11.702s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/bin'
+[11.702s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/lib/pkgconfig/test_moveit_config.pc'
+[11.703s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/lib/python3.10/site-packages'
+[11.703s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/test_moveit_config/bin'
+[11.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.ps1'
+[11.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.dsv'
+[11.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.sh'
+[11.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.bash'
+[11.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/test_moveit_config/package.zsh'
+[11.710s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/test_moveit_config/share/colcon-core/packages/test_moveit_config)
+[12.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/autopartol_interfaces -- -j2 -l2
+[12.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+[12.383s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_interfaces)
+[12.383s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces' for CMake module files
+[12.384s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces' for CMake config files
+[12.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'cmake_prefix_path')
+[12.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.ps1'
+[12.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.dsv'
+[12.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wz/Desktop/NanoRobot/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+[12.385s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.sh'
+[12.385s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib'
+[12.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'ld_library_path_lib')
+[12.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.ps1'
+[12.386s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.dsv'
+[12.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.sh'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/bin'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/pkgconfig/autopartol_interfaces.pc'
+[12.386s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/python3.10/site-packages'
+[12.387s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/bin'
+[12.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.ps1'
+[12.387s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.dsv'
+[12.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.sh'
+[12.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.bash'
+[12.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.zsh'
+[12.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/colcon-core/packages/autopartol_interfaces)
+[12.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autopartol_interfaces)
+[12.389s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces' for CMake module files
+[12.389s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces' for CMake config files
+[12.390s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'cmake_prefix_path')
+[12.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.ps1'
+[12.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.dsv'
+[12.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/cmake_prefix_path.sh'
+[12.391s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib'
+[12.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('autopartol_interfaces', 'ld_library_path_lib')
+[12.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.ps1'
+[12.392s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.dsv'
+[12.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/hook/ld_library_path_lib.sh'
+[12.392s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/bin'
+[12.392s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/pkgconfig/autopartol_interfaces.pc'
+[12.393s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/lib/python3.10/site-packages'
+[12.393s] Level 1:colcon.colcon_core.environment:checking '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/bin'
+[12.393s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.ps1'
+[12.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.dsv'
+[12.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.sh'
+[12.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.bash'
+[12.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/autopartol_interfaces/package.zsh'
+[12.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wz/Desktop/NanoRobot/install/autopartol_interfaces/share/colcon-core/packages/autopartol_interfaces)
+[12.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[12.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[12.396s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[12.396s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[12.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[12.412s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[12.412s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.438s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.438s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wz/Desktop/NanoRobot/install/local_setup.ps1'
+[12.440s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wz/Desktop/NanoRobot/install/_local_setup_util_ps1.py'
+[12.442s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wz/Desktop/NanoRobot/install/setup.ps1'
+[12.443s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wz/Desktop/NanoRobot/install/local_setup.sh'
+[12.444s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wz/Desktop/NanoRobot/install/_local_setup_util_sh.py'
+[12.445s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wz/Desktop/NanoRobot/install/setup.sh'
+[12.446s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wz/Desktop/NanoRobot/install/local_setup.bash'
+[12.448s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wz/Desktop/NanoRobot/install/setup.bash'
+[12.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wz/Desktop/NanoRobot/install/local_setup.zsh'
+[12.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wz/Desktop/NanoRobot/install/setup.zsh'

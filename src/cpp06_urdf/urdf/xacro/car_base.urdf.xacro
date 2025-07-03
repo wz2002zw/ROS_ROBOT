@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find cpp06_urdf)/urdf/xacro/common_inertia.xacro"/>
+    <!-- 1.需要声明变量 -->
+    <xacro:property name="PI" value="3.1415927" />
+    <xacro:property name="car_length" value="0.2" />
+    <xacro:property name="car_width" value="0.12" />
+    <xacro:property name="car_height" value="0.07" />
+    <xacro:property name="wheel_radius" value="0.025" />
+    <xacro:property name="wheel_length" value="0.02" />
+    <!-- 轮胎关节偏移量 -->
+    <xacro:property name="wheel_joint_x" value="0.08" />
+    <xacro:property name="wheel_joint_y" value="${car_width / 2}" />
+    <xacro:property name="wheel_joint_z" value="${-(car_height / 2 + distance - wheel_radius)}" />
+    <!-- 离地间隙 -->
+    <xacro:property name="distance" value="0.015" />
+    <material name="yellow">
+        <color rgba="0.9 0.6 0.0 0.5"/>       
+    </material>
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 0.5"/>       
+    </material>
+    <!-- 2.设置base_footprint -->
+    <link name="base_footprint">
+        <visual>
+            <geometry>
+                <sphere radius="0.001"/>
+            </geometry>
+        </visual>        
+    </link>
+    <!-- 3.设置base_link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${car_length} ${car_width} ${car_height}"/>
+            </geometry>
+            <material name="yellow"/>
+        </visual>
+        <collision>
+             <geometry>
+                <box size="${car_length} ${car_width} ${car_height}"/>
+            </geometry>
+            <material name="yellow"/>
+        </collision>
+        <xacro:box_inertia m="1.0" d="${car_length}" w="${car_width}" h="${car_height}" />
+    </link>
+    <!-- 4.使用joint将二者相联 -->
+    <joint name="base_link2base_footprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 ${car_height/2 + distance}"/>
+        
+    </joint>
+    <!-- 5.定义车轮相关的宏 -->
+    <!-- 宏函数创建规则,封装通用代码（可被复用的代码），变的数据以参数的方式暴露出去 -->
+    <!-- link变量：name -->
+    <!-- joint变量：name child-link origin(x y z)-->
+    <xacro:macro name="wheel_func" params="link_name front_flag left_flag">
+        <link name="${link_name}">
+            <visual>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}"/>
+                </geometry>
+                <material name="black"/>
+                <origin rpy="${PI/2} 0.0 0.0"/>
+            </visual>
+            <collision>
+                <geometry>
+                    <cylinder radius="${wheel_radius}" length="${wheel_length}"/>
+                </geometry>
+                <material name="black"/>
+                <origin rpy="${PI/2} 0.0 0.0"/>
+            </collision>
+            <xacro:cylinder_inertia m="1.0" r="${wheel_radius}" h="${wheel_length}" />
+        </link>
+            <joint name="${link_name}2base_link" type="continuous">
+            <parent link="base_link"/>
+            <child link="${link_name}"/>
+            <origin xyz="${wheel_joint_x * front_flag} ${wheel_joint_y * left_flag} ${wheel_joint_z}"/>
+            <axis xyz="0 1 0"/>
+        </joint>
+
+        <gazebo reference="${link_name}">
+            <!-- 切向的摩擦系数 -->
+            <mu1 value="20.0" /> 
+            <!-- 法向的摩擦系数 -->
+            <mu2 value="20.0" />
+            <!-- 提高了摩擦力的配置，减小了刚度系数的配置,轮子是橡胶的，刚度没那么大 -->
+            <!-- 接触的刚度系数 -->
+            <kp value="1000000000.0" />
+            <!-- 阻尼系数 -->
+            <kd value="1.0" />
+        </gazebo>
+    </xacro:macro>
+    <!-- 6.调用宏生成多个车轮 -->
+    <xacro:wheel_func link_name="front_left" front_flag="1" left_flag="1" />
+    <xacro:wheel_func link_name="front_right" front_flag="1" left_flag="-1" />
+    <!-- <xacro:wheel_func link_name="back_left" front_flag="-1" left_flag="1" /> -->
+    <!-- <xacro:wheel_func link_name="back_right" front_flag="-1" left_flag="-1" /> -->
+</robot>

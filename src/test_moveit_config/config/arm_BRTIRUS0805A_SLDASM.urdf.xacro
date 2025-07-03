@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arm_BRTIRUS0805A_SLDASM">
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- Import arm_BRTIRUS0805A_SLDASM urdf file -->
+    <xacro:include filename="$(find cpp06_urdf)/urdf/urdf/arm_BRTIRUS0805A_SLDASM.urdf" />
+
+    <!-- Import control_xacro -->
+    <xacro:include filename="arm_BRTIRUS0805A_SLDASM.ros2_control.xacro" />
+
+
+    <xacro:arm_BRTIRUS0805A_SLDASM_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:include filename="$(find cpp06_urdf)/urdf/xacro/common_inertia.xacro"/>
+    
+    <!-- 声明一些参数 -->
+    <!-- 摄像头的长宽高 -->
+    <xacro:property name="PI" value="3.1415927" />
+    <xacro:property name="camera_x" value="0.01" />
+    <xacro:property name="camera_y" value="0.08" />
+    <xacro:property name="camera_z" value="0.01" />
+    <!-- 关节的偏移量 -->
+    <xacro:property name="camera_joint_x" value="${car_length/2 - 0.01}" />
+    <xacro:property name="camera_joint_y" value="0" />
+    <xacro:property name="camera_joint_z" value="${car_height / 2 + camera_z / 2}" />
+    <!-- 设置link和joint -->
+    <link name="camera">
+        <visual>
+            <geometry>
+                <box size="${camera_x} ${camera_y} ${camera_z}"/> 
+            </geometry>
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${camera_x} ${camera_y} ${camera_z}"/> 
+            </geometry> 
+        </collision>
+        <xacro:box_inertia m="1.0" d="${camera_x}" w="${camera_y}" h="${camera_z}" />
+    </link>
+
+    <link name="camera_optical_link">
+        
+    </link>
+
+    <joint name="camera_optical_link2camera" type="fixed">
+        <parent link="camera"/>
+        <child link="camera_optical_link"/>
+        <origin xyz="0.0 0.0 0.0" rpy="${-PI/2} 0.0 ${-PI/2}"/>
+    </joint>    
+
+    <joint name="camera2base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="camera"/>
+        <origin xyz="${camera_joint_x} ${camera_joint_y} ${camera_joint_z} "/>
+    </joint>
+    <gazebo reference="camera">
+        <material>Gazebo/Black</material>
+    </gazebo>
+</robot>

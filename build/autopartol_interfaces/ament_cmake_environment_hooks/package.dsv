@@ -1,0 +1,4 @@
+source;share/autopartol_interfaces/local_setup.bash
+source;share/autopartol_interfaces/local_setup.dsv
+source;share/autopartol_interfaces/local_setup.sh
+source;share/autopartol_interfaces/local_setup.zsh

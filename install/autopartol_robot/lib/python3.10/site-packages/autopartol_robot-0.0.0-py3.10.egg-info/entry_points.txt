@@ -1,0 +1,4 @@
+[console_scripts]
+partol_node = autopartol_robot.partol_node:main
+speaker = autopartol_robot.speaker:main
+

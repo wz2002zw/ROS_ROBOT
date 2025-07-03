@@ -1,0 +1,45 @@
+<!-- 
+需求：
+    创建机器人模型，底盘为长方体，在长方体的前面添加一摄像头，摄像头可以沿着Z轴360度旋转。
+
+实现：1.创建底盘link
+     2.创建摄像头link
+     3.通过joint关联底盘与摄像头
+-->
+
+<robot name="demo03_joint">
+    <!-- 抽取颜色 -->
+    <material name="yellow">
+        <color rgba="0.8 0.8 0.0 0.5"/>
+    </material>
+    <material name="red">
+        <color rgba="0.9 0.0 0.0 0.5"/>
+    </material>
+    <!-- 1.创建底盘link -->
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="0.5 0.3 0.1"/>
+            </geometry>
+            <material name="yellow"/>
+        </visual>
+    </link>
+    <!-- 2.创建摄像头link -->
+    <link name="camera">
+        <visual>
+            <geometry>
+                <box size="0.02 0.05 0.05"/>
+            </geometry>
+            <material name="red"/>
+        </visual>
+    </link>
+    <!-- 3.通过joint关联底盘与摄像头 -->
+    <joint name="camera2baselink" type="continuous">
+        <parent link="base_link"/>
+        <child link="camera"/>
+        <!-- 设置平移量和旋转度 -->
+        <origin xyz="0.2 0.0 0.075"/>
+        <!-- 沿哪个坐标轴旋转 --> 
+        <axis xyz="0 0 1"/>  
+    </joint>
+</robot>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<robot name="fish_robot">
+    <material name="white">
+        <color rgba="1.0 1.0 1.0 0.5"/> 
+    </material>
+    <material name="black">
+        <color rgba="0.0 0.0 0.0 0.5"/> 
+    </material>
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.10" length="0.12"/>
+            </geometry>
+            <material name="white"/>
+            <!-- 沿着自己几何中心的偏移量和旋转量 -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </visual>
+    </link>
+
+    <!-- IMU -->
+    <link name="imu_link">
+        <visual>
+            <geometry>
+                <box size="0.02 0.02 0.02"/>
+            </geometry>
+            <material name="black"/>
+            <!-- 沿着自己几何中心的偏移量和旋转量 -->
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+        </visual>
+    </link>
+
+    <joint name="imu_link2base_link" type="fixed"> 
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="0.0 0.0 0.03" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0.0 0.0 0.0"/>  
+    </joint>
+</robot>

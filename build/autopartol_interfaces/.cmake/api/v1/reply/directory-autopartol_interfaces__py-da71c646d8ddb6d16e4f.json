@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopartol_interfaces__py",
+		"source" : "/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/autopartol_interfaces__py"
+	}
+}

@@ -1,0 +1,45 @@
+[1.650s] Invoking command in '/home/wz/Desktop/NanoRobot/src/autopartol_robot': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/wz/Desktop/NanoRobot/build/autopartol_robot/build install --record /home/wz/Desktop/NanoRobot/build/autopartol_robot/install.log --single-version-externally-managed install_data
+[2.210s] running egg_info
+[2.211s] creating ../../build/autopartol_robot/autopartol_robot.egg-info
+[2.211s] writing ../../build/autopartol_robot/autopartol_robot.egg-info/PKG-INFO
+[2.212s] writing dependency_links to ../../build/autopartol_robot/autopartol_robot.egg-info/dependency_links.txt
+[2.212s] writing entry points to ../../build/autopartol_robot/autopartol_robot.egg-info/entry_points.txt
+[2.212s] writing requirements to ../../build/autopartol_robot/autopartol_robot.egg-info/requires.txt
+[2.212s] writing top-level names to ../../build/autopartol_robot/autopartol_robot.egg-info/top_level.txt
+[2.214s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[2.217s] reading manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[2.221s] writing manifest file '../../build/autopartol_robot/autopartol_robot.egg-info/SOURCES.txt'
+[2.221s] running build
+[2.221s] running build_py
+[2.221s] creating /home/wz/Desktop/NanoRobot/build/autopartol_robot/build
+[2.221s] creating /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib
+[2.221s] creating /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib/autopartol_robot
+[2.226s] copying autopartol_robot/partol_node.py -> /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib/autopartol_robot
+[2.227s] copying autopartol_robot/speaker.py -> /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib/autopartol_robot
+[2.228s] copying autopartol_robot/__init__.py -> /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib/autopartol_robot
+[2.228s] running install
+[2.228s] running install_lib
+[2.228s] creating /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[2.228s] copying /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib/autopartol_robot/partol_node.py -> /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[2.235s] copying /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib/autopartol_robot/speaker.py -> /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[2.235s] copying /home/wz/Desktop/NanoRobot/build/autopartol_robot/build/lib/autopartol_robot/__init__.py -> /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot
+[2.235s] byte-compiling /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/partol_node.py to partol_node.cpython-310.pyc
+[2.235s] byte-compiling /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/speaker.py to speaker.cpython-310.pyc
+[2.237s] byte-compiling /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot/__init__.py to __init__.cpython-310.pyc
+[2.237s] running install_data
+[2.237s] creating /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/ament_index
+[2.237s] creating /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/ament_index/resource_index
+[2.238s] creating /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/ament_index/resource_index/packages
+[2.238s] copying resource/autopartol_robot -> /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/ament_index/resource_index/packages
+[2.238s] copying package.xml -> /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot
+[2.241s] creating /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/launch
+[2.241s] copying launch/autopartol.launch.py -> /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/launch
+[2.241s] creating /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/config
+[2.241s] copying config/partol_config.yaml -> /home/wz/Desktop/NanoRobot/install/autopartol_robot/share/autopartol_robot/config
+[2.241s] running install_egg_info
+[2.248s] Copying ../../build/autopartol_robot/autopartol_robot.egg-info to /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages/autopartol_robot-0.0.0-py3.10.egg-info
+[2.248s] running install_scripts
+[2.294s] Installing partol_node script to /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/autopartol_robot
+[2.295s] Installing speaker script to /home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/autopartol_robot
+[2.295s] writing list of installed files to '/home/wz/Desktop/NanoRobot/build/autopartol_robot/install.log'
+[2.342s] Invoked command in '/home/wz/Desktop/NanoRobot/src/autopartol_robot' returned '0': PYTHONPATH=/home/wz/Desktop/NanoRobot/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/NanoRobot/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autopartol_robot build --build-base /home/wz/Desktop/NanoRobot/build/autopartol_robot/build install --record /home/wz/Desktop/NanoRobot/build/autopartol_robot/install.log --single-version-externally-managed install_data

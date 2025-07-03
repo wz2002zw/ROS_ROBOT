@@ -1,0 +1,4 @@
+srv/SpeechText.idl
+srv/SpeechText.srv
+srv/SpeechText_Request.msg
+srv/SpeechText_Response.msg

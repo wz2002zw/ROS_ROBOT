@@ -1,0 +1,53 @@
+[0.024s] Invoking command in '/home/wz/Desktop/NanoRobot/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/car_navigation2 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/car_navigation2
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.363s] -- The CXX compiler identification is GNU 11.4.0
+[0.559s] -- Detecting C compiler ABI info
+[0.707s] -- Detecting C compiler ABI info - done
+[0.721s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.721s] -- Detecting C compile features
+[0.721s] -- Detecting C compile features - done
+[0.728s] -- Detecting CXX compiler ABI info
+[0.972s] -- Detecting CXX compiler ABI info - done
+[0.997s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.997s] -- Detecting CXX compile features
+[1.002s] -- Detecting CXX compile features - done
+[1.013s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.495s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.777s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.985s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.985s] -- Added test 'lint_cmake' to check CMake code style
+[1.985s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.985s] -- Added test 'xmllint' to check XML markup files
+[1.996s] -- Configuring done
+[2.018s] -- Generating done
+[2.018s] -- Build files have been written to: /home/wz/Desktop/NanoRobot/build/car_navigation2
+[2.032s] Invoked command in '/home/wz/Desktop/NanoRobot/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/NanoRobot/src/car_navigation2 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/NanoRobot/install/car_navigation2
+[2.033s] Invoking command in '/home/wz/Desktop/NanoRobot/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/car_navigation2 -- -j2 -l2
+[2.125s] Invoked command in '/home/wz/Desktop/NanoRobot/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/NanoRobot/build/car_navigation2 -- -j2 -l2
+[2.131s] Invoking command in '/home/wz/Desktop/NanoRobot/build/car_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/car_navigation2
+[2.153s] -- Install configuration: ""
+[2.153s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/launch
+[2.153s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/launch/navigation2.launch.py
+[2.153s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/config
+[2.153s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/config/nav2_params.yaml
+[2.153s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/maps
+[2.153s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/maps/room3.yaml
+[2.153s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/maps/room.pgm
+[2.179s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/maps/room.yaml
+[2.180s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/maps/room3.pgm
+[2.185s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/ament_index/resource_index/package_run_dependencies/car_navigation2
+[2.185s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/ament_index/resource_index/parent_prefix_path/car_navigation2
+[2.185s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/environment/ament_prefix_path.sh
+[2.185s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/environment/ament_prefix_path.dsv
+[2.186s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/environment/path.sh
+[2.187s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/environment/path.dsv
+[2.197s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/local_setup.bash
+[2.197s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/local_setup.sh
+[2.197s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/local_setup.zsh
+[2.198s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/local_setup.dsv
+[2.198s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.dsv
+[2.198s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/ament_index/resource_index/packages/car_navigation2
+[2.198s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/cmake/car_navigation2Config.cmake
+[2.198s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/cmake/car_navigation2Config-version.cmake
+[2.198s] -- Installing: /home/wz/Desktop/NanoRobot/install/car_navigation2/share/car_navigation2/package.xml
+[2.224s] Invoked command in '/home/wz/Desktop/NanoRobot/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wz/Desktop/NanoRobot/install/car_application:/home/wz/Desktop/NanoRobot/install/autopartol_robot:/home/wz/NanoRobot/install/car_application:/home/wz/NanoRobot/install/autopartol_robot:/home/wz/workspace/install/arm_urdf_py:/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/NanoRobot/build/car_navigation2

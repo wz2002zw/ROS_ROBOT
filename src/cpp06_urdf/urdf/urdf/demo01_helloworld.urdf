@@ -1,0 +1,20 @@
+<!-- 
+    需求：创建一个盒装机器人。
+        长：1.0
+        宽：0.5
+        高：0.1
+ -->
+ <!-- 根标签-->
+ <robot name="hello world">
+    <!-- 连杆 -->
+    <link name="base_link">
+        <!-- 可视化 -->
+        <visual>
+            <!-- 几何外观 -->
+            <geometry>
+                <!-- 长方体 -->
+                <box size="1.0 0.5 0.1"/>
+            </geometry>
+        </visual>  
+    </link>
+ </robot>

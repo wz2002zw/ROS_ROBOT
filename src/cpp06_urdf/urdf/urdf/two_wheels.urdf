@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot name="my_robot">
+    <material name="blue">
+        <color rgba="0.0 0.0 0.5 1.0"/>
+    </material>
+    <material name="grey">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+    </material>
+    <link name="base_footprint"/>
+
+    <link name="base_link">
+    <visual>
+        <geometry>
+            <box size="0.6 0.4 0.2"/>
+        </geometry>
+        <!-- 沿着自己几何中心的偏移和旋转量 -->
+        <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
+        <material name="blue" />
+    </visual>  
+    </link>
+
+    <link name="right_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <!-- 2.让车轮正过来 -->
+            <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+            <material name="grey"/>
+        </visual>   
+    </link>
+
+    <joint name="base_link2base_footprint" type="fixed">
+        <parent link="base_footprint"/>
+        <child link="base_link"/>
+        <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
+    </joint>
+
+    <joint name="right_wheel_link2base_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel_link"/>
+        <!-- 1.box_length/4=0.15 box_width/2=0.2   让y轴指向外侧，绕着x旋转180°-->
+        <!-- 3.box_width/2+wheel_length/2=0.225 -->
+        <origin xyz="-0.15 -0.225 0.0" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <link name="left_wheel_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.05"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="1.57 0.0 0.0"/>
+            <material name="grey"/>
+        </visual>
+    </link>
+    <joint name="left_wheel_link" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel_link"/>
+        <origin xyz="-0.15 0.225 0.0" rpy="0.0 0.0 0.0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <link name="caster_wheel_link">
+        <visual>
+            <geometry>
+                <sphere radius="0.05"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+            <material name="grey"/>
+        </visual>     
+    </link>
+    <joint name="caster_wheel_link2base_link" type="fixed">
+        <parent link="base_link"/>
+        <child link="caster_wheel_link"/>
+        <origin xyz="0.2 0.0 -0.05" rpy="0.0 0.0 0.0"/>
+        
+    </joint>
+
+
+
+<!--     <link name="second_link">
+        <visual>
+            <geometry>
+                <cylinder radius="0.1" length="0.2"/>
+            </geometry>
+            <origin xyz="0.0 0.0 0.1" rpy="0.0 0.0 0.0"/>
+            <material name="grey" />
+        </visual>
+    </link>
+    <joint name="second_link2base_link" type="revolute">
+        <parent link="base_link"/>
+        <child link="second_link"/>
+        <origin xyz="0.0 0.0 0.2" rpy="0.0 0.0 0.0"/> 
+        <axis xyz="0 0 1"/>
+        <limit lower="-1.57" upper="1.57" effort="100" velocity="100"/>
+        pi = 180 = 3.14
+    </joint> -->
+
+</robot>
