@@ -1,0 +1,52 @@
+[0.019s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/car_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/car_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/car_navigation2
+[0.150s] -- The C compiler identification is GNU 11.4.0
+[0.258s] -- The CXX compiler identification is GNU 11.4.0
+[0.273s] -- Detecting C compiler ABI info
+[0.417s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.435s] -- Detecting C compile features - done
+[0.445s] -- Detecting CXX compiler ABI info
+[0.641s] -- Detecting CXX compiler ABI info - done
+[0.681s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.681s] -- Detecting CXX compile features
+[0.688s] -- Detecting CXX compile features - done
+[0.692s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.113s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.295s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.452s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.457s] -- Added test 'lint_cmake' to check CMake code style
+[1.457s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.457s] -- Added test 'xmllint' to check XML markup files
+[1.460s] -- Configuring done
+[1.468s] -- Generating done
+[1.469s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/car_navigation2
+[1.507s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/car_navigation2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/car_navigation2
+[1.508s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/car_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/car_navigation2 -- -j4 -l4
+[1.581s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/car_navigation2 -- -j4 -l4
+[1.592s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/car_navigation2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/car_navigation2
+[1.614s] -- Install configuration: ""
+[1.615s] -- Execute custom install script
+[1.622s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/launch/navigation2.launch.py
+[1.649s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/config/nav2_params.yaml
+[1.681s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/maps/room.pgm
+[1.706s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/maps/room.yaml
+[1.733s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/maps/room3.pgm
+[1.762s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/maps/room3.yaml
+[1.784s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/ament_index/resource_index/package_run_dependencies/car_navigation2
+[1.829s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/ament_index/resource_index/parent_prefix_path/car_navigation2
+[1.861s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/environment/ament_prefix_path.sh
+[1.889s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/environment/ament_prefix_path.dsv
+[1.915s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/environment/path.sh
+[1.951s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/environment/path.dsv
+[1.987s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/local_setup.bash
+[2.023s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/local_setup.sh
+[2.068s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/local_setup.zsh
+[2.104s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/local_setup.dsv
+[2.150s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/package.dsv
+[2.181s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/ament_index/resource_index/packages/car_navigation2
+[2.197s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/cmake/car_navigation2Config.cmake
+[2.243s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/cmake/car_navigation2Config-version.cmake
+[2.278s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/car_navigation2/share/car_navigation2/package.xml
+[2.308s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/car_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/car_navigation2

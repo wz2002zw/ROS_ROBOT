@@ -1,0 +1,89 @@
+[0.022s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.178s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting C compiler ABI info
+[0.271s] -- Detecting C compiler ABI info - done
+[0.281s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.281s] -- Detecting C compile features
+[0.282s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.409s] -- Detecting CXX compiler ABI info - done
+[0.427s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.427s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.428s] -- Found moveit_common: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_common/share/moveit_common/cmake)
+[0.428s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.571s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.660s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.756s] [0mchomp_motion_planner: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.759s] -- Found moveit_core: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_core/share/moveit_core/cmake)
+[1.036s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.083s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.153s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.158s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.165s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.204s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.262s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.262s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.360s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.379s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.443s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.453s] -- Found Threads: TRUE  
+[1.525s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.559s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.666s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.754s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.755s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.063s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.076s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.077s] -- Configured cppcheck include dirs: /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/chomp/chomp_motion_planner/include
+[2.077s] -- Configured cppcheck exclude dirs and/or files: 
+[2.077s] -- Added test 'xmllint' to check XML markup files
+[2.082s] -- Configuring done
+[2.106s] -- Generating done
+[2.121s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner
+[2.153s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/chomp/chomp_motion_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner
+[2.154s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner -- -j4 -l4
+[2.236s] [ 16%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_trajectory.cpp.o[0m
+[2.239s] [ 33%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_parameters.cpp.o[0m
+[2.246s] [ 50%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_cost.cpp.o[0m
+[2.249s] [ 66%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_optimizer.cpp.o[0m
+[3.978s] [ 83%] [32mBuilding CXX object CMakeFiles/chomp_motion_planner.dir/src/chomp_planner.cpp.o[0m
+[51.111s] [100%] [32m[1mLinking CXX shared library libchomp_motion_planner.so[0m
+[51.381s] [100%] Built target chomp_motion_planner
+[51.407s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner -- -j4 -l4
+[51.418s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner
+[51.435s] -- Install configuration: "Release"
+[51.436s] -- Execute custom install script
+[51.438s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/include/chomp_motion_planner/chomp_cost.h
+[51.453s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/include/chomp_motion_planner/chomp_optimizer.h
+[51.466s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/include/chomp_motion_planner/chomp_parameters.h
+[51.475s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/include/chomp_motion_planner/chomp_planner.h
+[51.485s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/include/chomp_motion_planner/chomp_trajectory.h
+[51.504s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/include/chomp_motion_planner/chomp_utils.h
+[51.521s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/include/chomp_motion_planner/multivariate_gaussian.h
+[51.533s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.sh
+[51.544s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/environment/library_path.dsv
+[51.553s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/ament_index/resource_index/package_run_dependencies/chomp_motion_planner
+[51.564s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/ament_index/resource_index/parent_prefix_path/chomp_motion_planner
+[51.571s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.sh
+[51.579s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/environment/ament_prefix_path.dsv
+[51.590s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.sh
+[51.614s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/environment/path.dsv
+[51.633s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.bash
+[51.645s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.sh
+[51.655s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.zsh
+[51.665s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/local_setup.dsv
+[51.677s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/package.dsv
+[51.684s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/ament_index/resource_index/packages/chomp_motion_planner
+[51.696s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/cmake/ament_cmake_export_targets-extras.cmake
+[51.710s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig.cmake
+[51.729s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerConfig-version.cmake
+[51.743s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/package.xml
+[51.758s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.9
+[51.759s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/lib/libchomp_motion_planner.so.2.5.9" to ""
+[51.760s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/lib/libchomp_motion_planner.so
+[51.760s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport.cmake
+[51.760s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/chomp_motion_planner/share/chomp_motion_planner/cmake/chomp_motion_plannerTargetsExport-release.cmake
+[51.764s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner

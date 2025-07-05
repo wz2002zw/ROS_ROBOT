@@ -1,0 +1,5 @@
+-DROS_PACKAGE_NAME="moveit_setup_controllers"
+-DQT_NO_KEYWORDS
+-o
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_controllers/include/moveit_setup_controllers/moc_controller_edit_widget.cpp
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_controllers/include/moveit_setup_controllers/controller_edit_widget.hpp

@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating autopartol_robot.egg-info
+writing autopartol_robot.egg-info/PKG-INFO
+writing dependency_links to autopartol_robot.egg-info/dependency_links.txt
+writing entry points to autopartol_robot.egg-info/entry_points.txt
+writing requirements to autopartol_robot.egg-info/requires.txt
+writing top-level names to autopartol_robot.egg-info/top_level.txt
+writing manifest file 'autopartol_robot.egg-info/SOURCES.txt'
+reading manifest file 'autopartol_robot.egg-info/SOURCES.txt'
+writing manifest file 'autopartol_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/python3.10/site-packages/autopartol-robot.egg-link (link to .)
+Installing partol_node script to /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/autopartol_robot
+Installing speaker script to /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/autopartol_robot
+
+Installed /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot
+running symlink_data
+creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index
+creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index/resource_index
+creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index/resource_index/packages
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/resource/autopartol_robot -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index/resource_index/packages
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/package.xml -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot
+creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/launch
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/launch/autopartol.launch.py -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/launch
+creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/config
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/config/partol_config.yaml -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/config

@@ -1,0 +1,4 @@
+/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib/libmoveit_simple_controller_manager.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/share/moveit_simple_controller_manager/cmake/export_moveit_simple_controller_managerExport-release.cmake

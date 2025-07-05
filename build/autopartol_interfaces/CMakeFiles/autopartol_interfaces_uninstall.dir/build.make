@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wz/Desktop/NanoRobot/src/autopartol_interfaces
+CMAKE_SOURCE_DIR = /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+CMAKE_BINARY_DIR = /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces
 
 # Utility rule file for autopartol_interfaces_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/autopartol_interfaces_uninstall.dir/compiler_depend.make
 include CMakeFiles/autopartol_interfaces_uninstall.dir/progress.make
 
 CMakeFiles/autopartol_interfaces_uninstall:
-	/usr/bin/cmake -P /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 autopartol_interfaces_uninstall: CMakeFiles/autopartol_interfaces_uninstall
 autopartol_interfaces_uninstall: CMakeFiles/autopartol_interfaces_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/autopartol_interfaces_uninstall.dir/clean:
 .PHONY : CMakeFiles/autopartol_interfaces_uninstall.dir/clean
 
 CMakeFiles/autopartol_interfaces_uninstall.dir/depend:
-	cd /home/wz/Desktop/NanoRobot/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/NanoRobot/src/autopartol_interfaces /home/wz/Desktop/NanoRobot/src/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles/autopartol_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles/autopartol_interfaces_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/autopartol_interfaces_uninstall.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/autopartol_interfaces__py
+# Install script for directory: /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/autopartol_interfaces__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/wz/Desktop/NanoRobot/install/autopartol_interfaces")
+  set(CMAKE_INSTALL_PREFIX "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

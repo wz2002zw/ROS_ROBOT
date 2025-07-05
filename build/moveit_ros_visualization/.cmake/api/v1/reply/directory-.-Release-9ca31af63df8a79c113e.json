@@ -1,0 +1,444 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_install",
+			"install",
+			"include",
+			"find_package",
+			"moveit_package",
+			"ament_cmake_symlink_install_targets",
+			"ament_execute_extensions",
+			"ament_package"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_symlink_install-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+			"/opt/ros/humble/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake/cmake/ament_cmakeConfig.cmake",
+			"/home/wz/Desktop/ROS_ROBOT/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/humble/share/ament_cmake_export_targets/cmake/ament_cmake_export_targets_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 32,
+				"parent" : 1
+			},
+			{
+				"file" : 4,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"file" : 3,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 15,
+				"parent" : 5
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 41,
+				"parent" : 7
+			},
+			{
+				"file" : 1,
+				"parent" : 8
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 9
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 10
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 12
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 50,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 140,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 10,
+				"line" : 66,
+				"parent" : 15
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 48,
+				"parent" : 16
+			},
+			{
+				"file" : 8,
+				"parent" : 17
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 28,
+				"parent" : 18
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 19
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 11,
+			"component" : "Unspecified",
+			"scriptFile" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_visualization/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake",
+			"type" : "script"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so.2.5.9"
+			],
+			"targetId" : "moveit_motion_planning_rviz_plugin::@52165aa309b6597994f1",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin.so"
+			],
+			"targetId" : "moveit_motion_planning_rviz_plugin::@52165aa309b6597994f1",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so.2.5.9"
+			],
+			"targetId" : "moveit_motion_planning_rviz_plugin_core::@52165aa309b6597994f1",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"motion_planning_rviz_plugin/libmoveit_motion_planning_rviz_plugin_core.so"
+			],
+			"targetId" : "moveit_motion_planning_rviz_plugin_core::@52165aa309b6597994f1",
+			"targetIndex" : 2,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so.2.5.9"
+			],
+			"targetId" : "moveit_planning_scene_rviz_plugin::@0526de66a6d4fe5c596d",
+			"targetIndex" : 4,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin.so"
+			],
+			"targetId" : "moveit_planning_scene_rviz_plugin::@0526de66a6d4fe5c596d",
+			"targetIndex" : 4,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so.2.5.9"
+			],
+			"targetId" : "moveit_planning_scene_rviz_plugin_core::@0526de66a6d4fe5c596d",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"planning_scene_rviz_plugin/libmoveit_planning_scene_rviz_plugin_core.so"
+			],
+			"targetId" : "moveit_planning_scene_rviz_plugin_core::@0526de66a6d4fe5c596d",
+			"targetIndex" : 6,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so.2.5.9"
+			],
+			"targetId" : "moveit_robot_state_rviz_plugin::@3cccd1ee7f0cc842f242",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin.so"
+			],
+			"targetId" : "moveit_robot_state_rviz_plugin::@3cccd1ee7f0cc842f242",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin_core.so.2.5.9"
+			],
+			"targetId" : "moveit_robot_state_rviz_plugin_core::@3cccd1ee7f0cc842f242",
+			"targetIndex" : 10,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"robot_state_rviz_plugin/libmoveit_robot_state_rviz_plugin_core.so"
+			],
+			"targetId" : "moveit_robot_state_rviz_plugin_core::@3cccd1ee7f0cc842f242",
+			"targetIndex" : 10,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so.2.5.9"
+			],
+			"targetId" : "moveit_rviz_plugin_render_tools::@11af576cd519c4ccae31",
+			"targetIndex" : 13,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"rviz_plugin_render_tools/libmoveit_rviz_plugin_render_tools.so"
+			],
+			"targetId" : "moveit_rviz_plugin_render_tools::@11af576cd519c4ccae31",
+			"targetIndex" : 13,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so.2.5.9"
+			],
+			"targetId" : "moveit_trajectory_rviz_plugin::@ea9655eb8b0ab182c77d",
+			"targetIndex" : 15,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin.so"
+			],
+			"targetId" : "moveit_trajectory_rviz_plugin::@ea9655eb8b0ab182c77d",
+			"targetIndex" : 15,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so.2.5.9"
+			],
+			"targetId" : "moveit_trajectory_rviz_plugin_core::@ea9655eb8b0ab182c77d",
+			"targetIndex" : 17,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 14,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"trajectory_rviz_plugin/libmoveit_trajectory_rviz_plugin_core.so"
+			],
+			"targetId" : "moveit_trajectory_rviz_plugin_core::@ea9655eb8b0ab182c77d",
+			"targetIndex" : 17,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 20,
+			"component" : "Unspecified",
+			"destination" : "share/moveit_ros_visualization/cmake",
+			"exportName" : "export_moveit_ros_visualization",
+			"exportTargets" : 
+			[
+				{
+					"id" : "moveit_motion_planning_rviz_plugin::@52165aa309b6597994f1",
+					"index" : 0
+				},
+				{
+					"id" : "moveit_motion_planning_rviz_plugin_core::@52165aa309b6597994f1",
+					"index" : 2
+				},
+				{
+					"id" : "moveit_planning_scene_rviz_plugin::@0526de66a6d4fe5c596d",
+					"index" : 4
+				},
+				{
+					"id" : "moveit_planning_scene_rviz_plugin_core::@0526de66a6d4fe5c596d",
+					"index" : 6
+				},
+				{
+					"id" : "moveit_robot_state_rviz_plugin::@3cccd1ee7f0cc842f242",
+					"index" : 8
+				},
+				{
+					"id" : "moveit_robot_state_rviz_plugin_core::@3cccd1ee7f0cc842f242",
+					"index" : 10
+				},
+				{
+					"id" : "moveit_rviz_plugin_render_tools::@11af576cd519c4ccae31",
+					"index" : 13
+				},
+				{
+					"id" : "moveit_trajectory_rviz_plugin::@ea9655eb8b0ab182c77d",
+					"index" : 15
+				},
+				{
+					"id" : "moveit_trajectory_rviz_plugin_core::@ea9655eb8b0ab182c77d",
+					"index" : 17
+				}
+			],
+			"paths" : 
+			[
+				"CMakeFiles/Export/share/moveit_ros_visualization/cmake/export_moveit_ros_visualizationExport.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

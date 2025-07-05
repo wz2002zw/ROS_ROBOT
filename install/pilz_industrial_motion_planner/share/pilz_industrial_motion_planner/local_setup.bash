@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner/ament_cmake_environment_hooks/local_setup.bash

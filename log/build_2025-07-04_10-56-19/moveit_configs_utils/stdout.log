@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating moveit_configs_utils.egg-info
+writing moveit_configs_utils.egg-info/PKG-INFO
+writing dependency_links to moveit_configs_utils.egg-info/dependency_links.txt
+writing entry points to moveit_configs_utils.egg-info/entry_points.txt
+writing requirements to moveit_configs_utils.egg-info/requires.txt
+writing top-level names to moveit_configs_utils.egg-info/top_level.txt
+writing manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+reading manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+writing manifest file 'moveit_configs_utils.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages/moveit-configs-utils.egg-link (link to .)
+
+Installed /home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils
+running symlink_data
+creating /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/ament_index
+creating /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/ament_index/resource_index
+creating /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/ament_index/resource_index/packages
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils/resource/moveit_configs_utils -> /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/ament_index/resource_index/packages
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils/package.xml -> /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/moveit_configs_utils
+creating /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils/default_configs/chomp_planning.yaml -> /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils/default_configs/ompl_defaults.yaml -> /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils/default_configs/pilz_industrial_motion_planner_planning.yaml -> /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/moveit_configs_utils/default_configs
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils/default_configs/ompl_planning.yaml -> /home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/share/moveit_configs_utils/default_configs

@@ -1,1 +1,1 @@
-string text
+/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_cmake/srv/SpeechText_Request.msg

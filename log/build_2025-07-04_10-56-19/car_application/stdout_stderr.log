@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating car_application.egg-info
+writing car_application.egg-info/PKG-INFO
+writing dependency_links to car_application.egg-info/dependency_links.txt
+writing entry points to car_application.egg-info/entry_points.txt
+writing requirements to car_application.egg-info/requires.txt
+writing top-level names to car_application.egg-info/top_level.txt
+writing manifest file 'car_application.egg-info/SOURCES.txt'
+reading manifest file 'car_application.egg-info/SOURCES.txt'
+writing manifest file 'car_application.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/python3.10/site-packages/car-application.egg-link (link to .)
+Installing get_robot_pose script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+Installing init_robot_pose script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+Installing nav_to_pose script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+Installing waypoint_follower script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+
+Installed /home/wz/Desktop/ROS_ROBOT/build/car_application
+running symlink_data
+creating /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index
+creating /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index/resource_index
+creating /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index/resource_index/packages
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/car_application/resource/car_application -> /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index/resource_index/packages
+symbolically linking /home/wz/Desktop/ROS_ROBOT/build/car_application/package.xml -> /home/wz/Desktop/ROS_ROBOT/install/car_application/share/car_application

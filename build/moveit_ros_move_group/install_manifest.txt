@@ -1,0 +1,6 @@
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib/libmoveit_move_group_default_capabilities.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib/libmoveit_move_group_capabilities_base.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/share/moveit_ros_move_group/cmake/export_moveit_ros_move_groupExport-release.cmake

@@ -1,1 +1,1 @@
-autopartol_interfaces
+/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/ament_cmake_python/autopartol_interfaces/autopartol_interfaces.egg-info/top_level.txt

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wz/Desktop/NanoRobot/src/autopartol_interfaces
+CMAKE_SOURCE_DIR = /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+CMAKE_BINARY_DIR = /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces
 
 # Include any dependencies generated for this target.
 include CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/depend.make
@@ -85,8 +85,8 @@ rosidl_generator_c/autopartol_interfaces/srv/speech_text.h: /opt/ros/humble/shar
 rosidl_generator_c/autopartol_interfaces/srv/speech_text.h: rosidl_adapter/autopartol_interfaces/srv/SpeechText.idl
 rosidl_generator_c/autopartol_interfaces/srv/speech_text.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_c/autopartol_interfaces/srv/speech_text.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_c__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_c__arguments.json
 
 rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.h: rosidl_generator_c/autopartol_interfaces/srv/speech_text.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.h
@@ -103,16 +103,16 @@ rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c: ro
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o: CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o: rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o: CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o -MF CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o.d -o CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o -c /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o -MF CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o.d -o CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o -c /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c
 
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c > CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c > CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.i
 
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c -o CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c -o CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.s
 
 # Object files for target autopartol_interfaces__rosidl_generator_c
 autopartol_interfaces__rosidl_generator_c_OBJECTS = \
@@ -127,7 +127,7 @@ libautopartol_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_
 libautopartol_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libautopartol_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libautopartol_interfaces__rosidl_generator_c.so: CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libautopartol_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libautopartol_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -143,6 +143,6 @@ CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/depend: rosidl_generato
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__struct.h
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__type_support.h
 CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/autopartol_interfaces/srv/speech_text.h
-	cd /home/wz/Desktop/NanoRobot/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/NanoRobot/src/autopartol_interfaces /home/wz/Desktop/NanoRobot/src/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/depend
 

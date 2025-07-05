@@ -1,1 +1,1 @@
-from autopartol_interfaces.srv._speech_text import SpeechText  # noqa: F401
+/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_py/autopartol_interfaces/srv/__init__.py

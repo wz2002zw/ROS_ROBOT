@@ -1,0 +1,102 @@
+[0.241s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/cpp06_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf
+[0.425s] -- The C compiler identification is GNU 11.4.0
+[0.510s] -- The CXX compiler identification is GNU 11.4.0
+[0.528s] -- Detecting C compiler ABI info
+[0.604s] -- Detecting C compiler ABI info - done
+[0.613s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.614s] -- Detecting C compile features
+[0.619s] -- Detecting C compile features - done
+[0.624s] -- Detecting CXX compiler ABI info
+[0.728s] -- Detecting CXX compiler ABI info - done
+[0.745s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.745s] -- Detecting CXX compile features
+[0.745s] -- Detecting CXX compile features - done
+[0.746s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.995s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.070s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.093s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.181s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.181s] -- Added test 'lint_cmake' to check CMake code style
+[1.182s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.187s] -- Added test 'xmllint' to check XML markup files
+[1.187s] -- Configuring done
+[1.189s] -- Generating done
+[1.192s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf
+[1.203s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/cpp06_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf
+[1.204s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf -- -j4 -l4
+[1.257s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf -- -j4 -l4
+[1.260s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf
+[1.265s] -- Install configuration: ""
+[1.265s] -- Execute custom install script
+[1.266s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/launch/__pycache__/display_robot.launch.cpython-310.pyc
+[1.274s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/launch/cartographer.launch.py
+[1.281s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/launch/display.launch.py
+[1.287s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/launch/display_robot.launch.py
+[1.295s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/launch/gazebo_sim.launch.py
+[1.303s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/rviz/urdf.rviz
+[1.313s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/model.config
+[1.317s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/arm_BRTIRUS0805A_SLDASM.urdf
+[1.331s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo01_helloworld.urdf
+[1.345s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo02_link.urdf
+[1.354s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo03_joint.urdf
+[1.365s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo04_basefootprint.urdf
+[1.380s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/demo05_exercise.urdf
+[1.391s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/fish_robot.urdf
+[1.417s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.gv
+[1.436s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/my_car.pdf
+[1.454s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/urdf/two_wheels.urdf
+[1.472s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car.urdf.xacro
+[1.484s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_base.urdf.xacro
+[1.492s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_camera.urdf.xacro
+[1.500s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_caster.urdf.xacro
+[1.519s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_control.urdf.xacro
+[1.538s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_imu.urdf.xacro
+[1.563s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/car_laser.urdf.xacro
+[1.574s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/common_inertia.xacro
+[1.585s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo01_helloworld.urdf.xacro
+[1.597s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo02_base_pro.urdf.xacro
+[1.614s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo03_base_func.urdf.xacro
+[1.627s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/demo04_base_include.urdf.xacro
+[1.647s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/gazebo_control_plugin.xacro
+[1.663s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/gazebo_sensor_plugin.xacro
+[1.694s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/urdf/xacro/robot_description.urdf.xacro
+[1.712s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/Link1.STL
+[1.735s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/Link2.STL
+[1.744s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/Link3.STL
+[1.768s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/Link4.STL
+[1.781s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/Link5.STL
+[1.803s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/Link6.STL
+[1.825s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/base_link.STL
+[1.846s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/meshes/burger_base.stl
+[1.866s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/custom_room.world
+[1.885s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/empty.world
+[1.906s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/house1
+[1.929s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/house2
+[1.939s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/house3
+[1.978s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room/model.config
+[2.004s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room/model.sdf
+[2.011s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room1/model.config
+[2.025s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room1/model.sdf
+[2.029s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room2/model.config
+[2.040s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room2/model.sdf
+[2.053s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room3/model.config
+[2.067s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/worlds/room3/model.sdf
+[2.085s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/config/car_controller.yaml
+[2.106s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/config/cartographer.lua
+[2.128s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/config/display_robot_model.rviz
+[2.150s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/ament_index/resource_index/package_run_dependencies/cpp06_urdf
+[2.174s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/ament_index/resource_index/parent_prefix_path/cpp06_urdf
+[2.194s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.sh
+[2.214s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/environment/ament_prefix_path.dsv
+[2.234s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/environment/path.sh
+[2.244s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/environment/path.dsv
+[2.272s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/local_setup.bash
+[2.286s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/local_setup.sh
+[2.293s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/local_setup.zsh
+[2.318s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/local_setup.dsv
+[2.339s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/package.dsv
+[2.365s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/ament_index/resource_index/packages/cpp06_urdf
+[2.402s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig.cmake
+[2.441s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/cmake/cpp06_urdfConfig-version.cmake
+[2.469s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/cpp06_urdf/share/cpp06_urdf/package.xml
+[2.489s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf

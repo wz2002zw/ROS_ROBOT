@@ -1,0 +1,27 @@
+[1.034s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/car_application': PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/ROS_ROBOT/install/car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wz/Desktop/ROS_ROBOT/build/car_application/build --no-deps symlink_data
+[1.587s] running develop
+[1.823s] running egg_info
+[1.824s] creating car_application.egg-info
+[1.824s] writing car_application.egg-info/PKG-INFO
+[1.825s] writing dependency_links to car_application.egg-info/dependency_links.txt
+[1.825s] writing entry points to car_application.egg-info/entry_points.txt
+[1.825s] writing requirements to car_application.egg-info/requires.txt
+[1.826s] writing top-level names to car_application.egg-info/top_level.txt
+[1.826s] writing manifest file 'car_application.egg-info/SOURCES.txt'
+[1.834s] reading manifest file 'car_application.egg-info/SOURCES.txt'
+[1.834s] writing manifest file 'car_application.egg-info/SOURCES.txt'
+[1.845s] running build_ext
+[1.845s] Creating /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/python3.10/site-packages/car-application.egg-link (link to .)
+[1.845s] Installing get_robot_pose script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+[1.845s] Installing init_robot_pose script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+[1.845s] Installing nav_to_pose script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+[1.845s] Installing waypoint_follower script to /home/wz/Desktop/ROS_ROBOT/install/car_application/lib/car_application
+[1.845s] 
+[1.845s] Installed /home/wz/Desktop/ROS_ROBOT/build/car_application
+[1.845s] running symlink_data
+[1.845s] creating /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index
+[1.845s] creating /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index/resource_index
+[1.845s] creating /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index/resource_index/packages
+[1.845s] symbolically linking /home/wz/Desktop/ROS_ROBOT/build/car_application/resource/car_application -> /home/wz/Desktop/ROS_ROBOT/install/car_application/share/ament_index/resource_index/packages
+[1.846s] symbolically linking /home/wz/Desktop/ROS_ROBOT/build/car_application/package.xml -> /home/wz/Desktop/ROS_ROBOT/install/car_application/share/car_application
+[1.958s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/car_application' returned '0': PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/car_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/ROS_ROBOT/install/car_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wz/Desktop/ROS_ROBOT/build/car_application/build --no-deps symlink_data

@@ -1,0 +1,15 @@
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_plugins
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_plugins
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.sh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/environment/ament_prefix_path.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/environment/path.sh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/environment/path.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/local_setup.bash
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/local_setup.sh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/local_setup.zsh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/local_setup.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/package.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/ament_index/resource_index/packages/moveit_plugins
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/cmake/moveit_pluginsConfig-version.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_plugins/share/moveit_plugins/package.xml

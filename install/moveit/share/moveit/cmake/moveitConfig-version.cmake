@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/build/moveit/ament_cmake_core/moveitConfig-version.cmake

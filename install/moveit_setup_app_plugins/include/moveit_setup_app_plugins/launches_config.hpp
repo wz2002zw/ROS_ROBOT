@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins/include/moveit_setup_app_plugins/launches_config.hpp

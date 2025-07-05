@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wz/Desktop/NanoRobot/src/cpp06_urdf
+CMAKE_SOURCE_DIR = /home/wz/Desktop/ROS_ROBOT/src/cpp06_urdf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wz/Desktop/NanoRobot/build/cpp06_urdf
+CMAKE_BINARY_DIR = /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf
 
 # Utility rule file for cpp06_urdf_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cpp06_urdf_uninstall.dir/compiler_depend.make
 include CMakeFiles/cpp06_urdf_uninstall.dir/progress.make
 
 CMakeFiles/cpp06_urdf_uninstall:
-	/usr/bin/cmake -P /home/wz/Desktop/NanoRobot/build/cpp06_urdf/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cpp06_urdf_uninstall: CMakeFiles/cpp06_urdf_uninstall
 cpp06_urdf_uninstall: CMakeFiles/cpp06_urdf_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cpp06_urdf_uninstall.dir/clean:
 .PHONY : CMakeFiles/cpp06_urdf_uninstall.dir/clean
 
 CMakeFiles/cpp06_urdf_uninstall.dir/depend:
-	cd /home/wz/Desktop/NanoRobot/build/cpp06_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/NanoRobot/src/cpp06_urdf /home/wz/Desktop/NanoRobot/src/cpp06_urdf /home/wz/Desktop/NanoRobot/build/cpp06_urdf /home/wz/Desktop/NanoRobot/build/cpp06_urdf /home/wz/Desktop/NanoRobot/build/cpp06_urdf/CMakeFiles/cpp06_urdf_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/ROS_ROBOT/src/cpp06_urdf /home/wz/Desktop/ROS_ROBOT/src/cpp06_urdf /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf /home/wz/Desktop/ROS_ROBOT/build/cpp06_urdf/CMakeFiles/cpp06_urdf_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cpp06_urdf_uninstall.dir/depend
 

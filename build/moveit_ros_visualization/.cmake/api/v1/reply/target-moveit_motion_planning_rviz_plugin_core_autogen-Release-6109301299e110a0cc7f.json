@@ -1,0 +1,69 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"motion_planning_rviz_plugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moveit_rviz_plugin_render_tools::@11af576cd519c4ccae31"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "moveit_planning_scene_rviz_plugin::@0526de66a6d4fe5c596d"
+		}
+	],
+	"id" : "moveit_motion_planning_rviz_plugin_core_autogen::@52165aa309b6597994f1",
+	"isGeneratorProvided" : true,
+	"name" : "moveit_motion_planning_rviz_plugin_core_autogen",
+	"paths" : 
+	{
+		"build" : "motion_planning_rviz_plugin",
+		"source" : "motion_planning_rviz_plugin"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_visualization/motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_visualization/motion_planning_rviz_plugin/CMakeFiles/moveit_motion_planning_rviz_plugin_core_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

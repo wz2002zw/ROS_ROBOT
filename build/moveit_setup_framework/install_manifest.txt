@@ -1,0 +1,3 @@
+/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/lib/libmoveit_setup_framework.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/share/moveit_setup_framework/cmake/export_moveit_setup_frameworkExport-release.cmake

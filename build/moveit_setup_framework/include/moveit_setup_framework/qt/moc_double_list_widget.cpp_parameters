@@ -1,0 +1,6 @@
+-I/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_framework
+-I/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework
+-DROS_PACKAGE_NAME="moveit_setup_framework"
+-o
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/include/moveit_setup_framework/qt/moc_double_list_widget.cpp
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_framework/include/moveit_setup_framework/qt/double_list_widget.hpp

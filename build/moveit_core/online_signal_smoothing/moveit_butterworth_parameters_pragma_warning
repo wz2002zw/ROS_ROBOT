@@ -1,0 +1,1 @@
+#pragma message("#include \"moveit_butterworth_parameters.hpp\" is deprecated. Use #include <moveit_core/moveit_butterworth_parameters.hpp> instead.")

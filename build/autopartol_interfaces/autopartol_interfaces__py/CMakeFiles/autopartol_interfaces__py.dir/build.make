@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wz/Desktop/NanoRobot/src/autopartol_interfaces
+CMAKE_SOURCE_DIR = /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+CMAKE_BINARY_DIR = /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces
 
 # Utility rule file for autopartol_interfaces__py.
 
@@ -89,8 +89,8 @@ rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typ
 rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/autopartol_interfaces/srv/SpeechText.idl
 rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/autopartol_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/autopartol_interfaces__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
@@ -122,10 +122,10 @@ autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/build: autopa
 .PHONY : autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/build
 
 autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/clean:
-	cd /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/autopartol_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/autopartol_interfaces__py.dir/cmake_clean.cmake
+	cd /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/autopartol_interfaces__py && $(CMAKE_COMMAND) -P CMakeFiles/autopartol_interfaces__py.dir/cmake_clean.cmake
 .PHONY : autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/clean
 
 autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/depend:
-	cd /home/wz/Desktop/NanoRobot/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/NanoRobot/src/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/autopartol_interfaces__py /home/wz/Desktop/NanoRobot/build/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/autopartol_interfaces__py /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/autopartol_interfaces__py /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/autopartol_interfaces__py /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : autopartol_interfaces__py/CMakeFiles/autopartol_interfaces__py.dir/depend
 

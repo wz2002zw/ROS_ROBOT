@@ -1,9 +1,9 @@
 {
   "package_name": "autopartol_interfaces",
-  "output_dir": "/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_cpp/autopartol_interfaces",
+  "output_dir": "/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_cpp/autopartol_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource",
   "idl_tuples": [
-    "/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_adapter/autopartol_interfaces:srv/SpeechText.idl"
+    "/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_adapter/autopartol_interfaces:srv/SpeechText.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
@@ -25,7 +25,7 @@
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
     "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
-    "/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_adapter/autopartol_interfaces/srv/SpeechText.idl",
+    "/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_adapter/autopartol_interfaces/srv/SpeechText.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/humble/share/builtin_interfaces/msg/Time.idl"
   ]

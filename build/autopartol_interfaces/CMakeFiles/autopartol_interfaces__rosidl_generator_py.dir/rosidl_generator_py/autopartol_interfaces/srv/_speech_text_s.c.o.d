@@ -1,5 +1,5 @@
 CMakeFiles/autopartol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopartol_interfaces/srv/_speech_text_s.c.o: \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_py/autopartol_interfaces/srv/_speech_text_s.c \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_py/autopartol_interfaces/srv/_speech_text_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,9 +207,9 @@ CMakeFiles/autopartol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/au
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__struct.h \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.h \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/msg/rosidl_generator_c__visibility_control.h \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.h \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_c/autopartol_interfaces/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string_functions.h

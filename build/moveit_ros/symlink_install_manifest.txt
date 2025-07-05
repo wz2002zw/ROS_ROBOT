@@ -1,0 +1,15 @@
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/ament_index/resource_index/package_run_dependencies/moveit_ros
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/ament_index/resource_index/parent_prefix_path/moveit_ros
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.sh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/environment/ament_prefix_path.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/environment/path.sh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/environment/path.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/local_setup.bash
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/local_setup.sh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/local_setup.zsh
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/local_setup.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/package.dsv
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/ament_index/resource_index/packages/moveit_ros
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/cmake/moveit_rosConfig-version.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros/share/moveit_ros/package.xml

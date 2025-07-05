@@ -1,0 +1,114 @@
+[0.068s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils
+[0.249s] -- The C compiler identification is GNU 11.4.0
+[0.398s] -- The CXX compiler identification is GNU 11.4.0
+[0.424s] -- Detecting C compiler ABI info
+[0.514s] -- Detecting C compiler ABI info - done
+[0.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.515s] -- Detecting C compile features
+[0.523s] -- Detecting C compile features - done
+[0.524s] -- Detecting CXX compiler ABI info
+[0.639s] -- Detecting CXX compiler ABI info - done
+[0.649s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.649s] -- Detecting CXX compile features
+[0.650s] -- Detecting CXX compile features - done
+[0.655s] -- Found moveit_common: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_common/share/moveit_common/cmake)
+[0.688s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.153s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.384s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.719s] [0mpilz_industrial_motion_planner_testutils: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.733s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.900s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.925s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.955s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.993s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.047s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.174s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.183s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.405s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.470s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.515s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.552s] -- Looking for pthread.h
+[2.726s] -- Looking for pthread.h - found
+[2.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.903s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.904s] -- Found Threads: TRUE  
+[3.054s] -- Found moveit_core: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_core/share/moveit_core/cmake)
+[3.133s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.218s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[3.273s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.345s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.601s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.724s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.725s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.369s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[4.377s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.410s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.410s] -- Configured cppcheck include dirs: /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils/include
+[4.410s] -- Configured cppcheck exclude dirs and/or files: 
+[4.412s] -- Added test 'xmllint' to check XML markup files
+[4.419s] -- Configuring done
+[4.457s] -- Generating done
+[4.469s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils
+[4.489s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/pilz_industrial_motion_planner_testutils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils
+[4.492s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils -- -j4 -l4
+[4.572s] [ 16%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/cartesianconfiguration.cpp.o[0m
+[15.419s] [ 33%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/sequence.cpp.o[0m
+[27.438s] [ 50%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/xml_testdata_loader.cpp.o[0m
+[44.989s] [ 66%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/robotconfiguration.cpp.o[0m
+[51.210s] [ 83%] [32mBuilding CXX object CMakeFiles/pilz_industrial_motion_planner_testutils.dir/src/jointconfiguration.cpp.o[0m
+[58.780s] [100%] [32m[1mLinking CXX shared library libpilz_industrial_motion_planner_testutils.so[0m
+[58.978s] [100%] Built target pilz_industrial_motion_planner_testutils
+[58.992s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils -- -j4 -l4
+[58.996s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils
+[59.002s] -- Install configuration: "Release"
+[59.003s] -- Execute custom install script
+[59.005s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/async_test.h
+[59.013s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/basecmd.h
+[59.021s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/cartesianconfiguration.h
+[59.031s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/cartesianpathconstraintsbuilder.h
+[59.048s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/center.h
+[59.064s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/checks.h
+[59.077s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circ.h
+[59.087s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circ_auxiliary_types.h
+[59.095s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/circauxiliary.h
+[59.104s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/command_types_typedef.h
+[59.113s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/default_values.h
+[59.127s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/exception_types.h
+[59.134s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/goalconstraintsmsgconvertible.h
+[59.155s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/gripper.h
+[59.169s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/interim.h
+[59.178s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/jointconfiguration.h
+[59.188s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/lin.h
+[59.197s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/motioncmd.h
+[59.208s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/motionplanrequestconvertible.h
+[59.218s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/ptp.h
+[59.229s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/robotconfiguration.h
+[59.238s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/robotstatemsgconvertible.h
+[59.259s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/sequence.h
+[59.265s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/testdata_loader.h
+[59.276s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/xml_constants.h
+[59.284s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/include/pilz_industrial_motion_planner_testutils/xml_testdata_loader.h
+[59.298s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.sh
+[59.305s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/library_path.dsv
+[59.315s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/package_run_dependencies/pilz_industrial_motion_planner_testutils
+[59.322s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/parent_prefix_path/pilz_industrial_motion_planner_testutils
+[59.335s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.sh
+[59.344s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/ament_prefix_path.dsv
+[59.365s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.sh
+[59.377s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/environment/path.dsv
+[59.390s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.bash
+[59.403s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.sh
+[59.416s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.zsh
+[59.423s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/local_setup.dsv
+[59.433s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.dsv
+[59.450s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/ament_index/resource_index/packages/pilz_industrial_motion_planner_testutils
+[59.465s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_targets-extras.cmake
+[59.474s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.483s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig.cmake
+[59.493s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/pilz_industrial_motion_planner_testutilsConfig-version.cmake
+[59.505s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/package.xml
+[59.512s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/lib/libpilz_industrial_motion_planner_testutils.so
+[59.515s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/lib/libpilz_industrial_motion_planner_testutils.so" to ""
+[59.515s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/export_pilz_industrial_motion_planner_testutilsExport.cmake
+[59.518s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/pilz_industrial_motion_planner_testutils/share/pilz_industrial_motion_planner_testutils/cmake/export_pilz_industrial_motion_planner_testutilsExport-release.cmake
+[59.521s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/pilz_industrial_motion_planner_testutils

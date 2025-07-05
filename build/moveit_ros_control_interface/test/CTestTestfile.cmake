@@ -1,0 +1,9 @@
+# CMake generated Testfile for 
+# Source directory: /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_plugins/moveit_ros_control_interface/test
+# Build directory: /home/wz/Desktop/ROS_ROBOT/build/moveit_ros_control_interface/test
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[test_controller_manager_plugin]=] "/usr/bin/python3" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_control_interface/test_results/moveit_ros_control_interface/test_controller_manager_plugin.gtest.xml" "--package-name" "moveit_ros_control_interface" "--output-file" "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_control_interface/ament_cmake_gtest/test_controller_manager_plugin.txt" "--command" "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_control_interface/test/test_controller_manager_plugin" "--gtest_output=xml:/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_control_interface/test_results/moveit_ros_control_interface/test_controller_manager_plugin.gtest.xml")
+set_tests_properties([=[test_controller_manager_plugin]=] PROPERTIES  LABELS "gtest" REQUIRED_FILES "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_control_interface/test/test_controller_manager_plugin" TIMEOUT "20" WORKING_DIRECTORY "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_control_interface/test" _BACKTRACE_TRIPLES "/opt/ros/humble/share/ament_cmake_test/cmake/ament_add_test.cmake;125;add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake;86;ament_add_test;/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake;93;ament_add_gtest_test;/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_plugins/moveit_ros_control_interface/test/CMakeLists.txt;3;ament_add_gtest;/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_plugins/moveit_ros_control_interface/test/CMakeLists.txt;0;")
+subdirs("../gtest")

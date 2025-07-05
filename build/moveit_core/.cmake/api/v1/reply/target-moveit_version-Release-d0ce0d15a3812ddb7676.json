@@ -1,0 +1,280 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "version/moveit_version"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_compile_options",
+			"moveit_package",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"version/CMakeLists.txt",
+			"/home/wz/Desktop/ROS_ROBOT/install/moveit_common/share/moveit_common/cmake/moveit_package.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 6,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 81,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 77,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wwrite-strings"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wunreachable-code"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wpointer-arith"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wredundant-decls"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wcast-qual"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-Wno-maybe-uninitialized"
+				},
+				{
+					"fragment" : "-std=c++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/exceptions/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/collision_detection/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/collision_detection_fcl/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/collision_detection_bullet/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/constraint_samplers/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/controller_manager/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/distance_field/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/collision_distance_field/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/dynamics_solver/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/kinematics_base/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/kinematics_metrics/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/robot_model/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/transforms/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/robot_state/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/robot_trajectory/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/kinematic_constraints/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/macros/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/online_signal_smoothing/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/planning_interface/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/planning_request_adapter/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/planning_scene/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/sensor_manager/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/trajectory_processing/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/utils/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_core/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/eigen3"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "moveit_version::@a21a3921dd3b9a0dc0f8",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,--no-as-needed  /opt/ros/humble/lib/libbackward.so -Wl,--as-needed",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "moveit_version",
+	"nameOnDisk" : "moveit_version",
+	"paths" : 
+	{
+		"build" : "version",
+		"source" : "version"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "version/version.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

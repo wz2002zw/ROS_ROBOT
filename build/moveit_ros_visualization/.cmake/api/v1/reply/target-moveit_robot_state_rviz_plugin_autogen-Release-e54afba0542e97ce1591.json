@@ -1,0 +1,65 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"robot_state_rviz_plugin/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 0,
+			"id" : "moveit_robot_state_rviz_plugin_core::@3cccd1ee7f0cc842f242"
+		}
+	],
+	"id" : "moveit_robot_state_rviz_plugin_autogen::@3cccd1ee7f0cc842f242",
+	"isGeneratorProvided" : true,
+	"name" : "moveit_robot_state_rviz_plugin_autogen",
+	"paths" : 
+	{
+		"build" : "robot_state_rviz_plugin",
+		"source" : "robot_state_rviz_plugin"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_visualization/robot_state_rviz_plugin/CMakeFiles/moveit_robot_state_rviz_plugin_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

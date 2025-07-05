@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/pilz_industrial_motion_planner/include/pilz_industrial_motion_planner/trajectory_generator_ptp.h

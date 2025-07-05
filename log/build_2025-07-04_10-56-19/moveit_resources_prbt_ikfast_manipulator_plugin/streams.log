@@ -1,0 +1,73 @@
+[0.020s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.183s] -- The CXX compiler identification is GNU 11.4.0
+[0.194s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.316s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.316s] -- Detecting C compile features
+[0.316s] -- Detecting C compile features - done
+[0.325s] -- Detecting CXX compiler ABI info
+[0.428s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.438s] -- Detecting CXX compile features
+[0.438s] -- Detecting CXX compile features - done
+[0.442s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.569s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.649s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.668s] -- Found moveit_core: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_core/share/moveit_core/cmake)
+[0.909s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.964s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.007s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.020s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.030s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.041s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.059s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.115s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.124s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.234s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.261s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.318s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.330s] -- Found Threads: TRUE  
+[1.384s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.430s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.575s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.666s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.666s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.930s] -- Found tf2_eigen_kdl: 0.25.13 (/opt/ros/humble/share/tf2_eigen_kdl/cmake)
+[2.036s] -- Configuring done
+[2.061s] -- Generating done
+[2.069s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin
+[2.087s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/test_configs/prbt_ikfast_manipulator_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin
+[2.087s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin -- -j4 -l4
+[2.168s] [ 50%] [32mBuilding CXX object CMakeFiles/prbt_manipulator_moveit_ikfast_plugin.dir/src/prbt_manipulator_ikfast_moveit_plugin.cpp.o[0m
+[37.745s] [100%] [32m[1mLinking CXX shared library libprbt_manipulator_moveit_ikfast_plugin.so[0m
+[38.080s] [100%] Built target prbt_manipulator_moveit_ikfast_plugin
+[38.096s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin -- -j4 -l4
+[38.102s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin
+[38.116s] -- Install configuration: ""
+[38.118s] -- Execute custom install script
+[38.121s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin//prbt_manipulator_moveit_ikfast_plugin_description.xml
+[38.136s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/library_path.sh
+[38.157s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/library_path.dsv
+[38.166s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_ikfast_manipulator_plugin
+[38.177s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_ikfast_manipulator_plugin
+[38.188s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/ament_prefix_path.sh
+[38.197s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/ament_prefix_path.dsv
+[38.206s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/path.sh
+[38.214s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/environment/path.dsv
+[38.229s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.bash
+[38.247s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.sh
+[38.267s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.zsh
+[38.280s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/local_setup.dsv
+[38.289s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/package.dsv
+[38.306s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/packages/moveit_resources_prbt_ikfast_manipulator_plugin
+[38.315s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/ament_index/resource_index/moveit_core__pluginlib__plugin/moveit_resources_prbt_ikfast_manipulator_plugin
+[38.324s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/ament_cmake_export_targets-extras.cmake
+[38.347s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/moveit_resources_prbt_ikfast_manipulator_pluginConfig.cmake
+[38.378s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/moveit_resources_prbt_ikfast_manipulator_pluginConfig-version.cmake
+[38.394s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/package.xml
+[38.407s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib/libprbt_manipulator_moveit_ikfast_plugin.so
+[38.407s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib/libprbt_manipulator_moveit_ikfast_plugin.so" to ""
+[38.407s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/export_moveit_resources_prbt_ikfast_manipulator_pluginExport.cmake
+[38.408s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_ikfast_manipulator_plugin/share/moveit_resources_prbt_ikfast_manipulator_plugin/cmake/export_moveit_resources_prbt_ikfast_manipulator_pluginExport-noconfig.cmake
+[38.415s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_ikfast_manipulator_plugin

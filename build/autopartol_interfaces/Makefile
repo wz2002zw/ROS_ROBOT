@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wz/Desktop/NanoRobot/src/autopartol_interfaces
+CMAKE_SOURCE_DIR = /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+CMAKE_BINARY_DIR = /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles /home/wz/Desktop/NanoRobot/build/autopartol_interfaces//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -315,17 +315,17 @@ autopartol_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : autopartol_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_autopartol_interfaces
+# Target rules for targets named ament_cmake_python_symlink_autopartol_interfaces
 
 # Build rule for target.
-ament_cmake_python_copy_autopartol_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_autopartol_interfaces
-.PHONY : ament_cmake_python_copy_autopartol_interfaces
+ament_cmake_python_symlink_autopartol_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_autopartol_interfaces
+.PHONY : ament_cmake_python_symlink_autopartol_interfaces
 
 # fast build rule for target.
-ament_cmake_python_copy_autopartol_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_autopartol_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_autopartol_interfaces.dir/build
-.PHONY : ament_cmake_python_copy_autopartol_interfaces/fast
+ament_cmake_python_symlink_autopartol_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_autopartol_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_autopartol_interfaces.dir/build
+.PHONY : ament_cmake_python_symlink_autopartol_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_autopartol_interfaces_egg
@@ -683,7 +683,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_autopartol_interfaces_egg"
-	@echo "... ament_cmake_python_copy_autopartol_interfaces"
+	@echo "... ament_cmake_python_symlink_autopartol_interfaces"
 	@echo "... autopartol_interfaces"
 	@echo "... autopartol_interfaces__cpp"
 	@echo "... autopartol_interfaces__py"

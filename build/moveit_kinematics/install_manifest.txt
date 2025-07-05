@@ -1,0 +1,11 @@
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_base.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_cached_ik_kinematics_plugin.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_kdl_kinematics_plugin.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_lma_kinematics_plugin.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib/libmoveit_srv_kinematics_plugin.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/share/moveit_kinematics/cmake/export_moveit_kinematicsExport-release.cmake

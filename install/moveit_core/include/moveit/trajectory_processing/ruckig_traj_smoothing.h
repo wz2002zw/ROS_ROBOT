@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_core/trajectory_processing/include/moveit/trajectory_processing/ruckig_traj_smoothing.h

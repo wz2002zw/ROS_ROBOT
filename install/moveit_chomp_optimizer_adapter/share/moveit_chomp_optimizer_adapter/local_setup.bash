@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/build/moveit_chomp_optimizer_adapter/ament_cmake_environment_hooks/local_setup.bash

@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_app_plugins/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

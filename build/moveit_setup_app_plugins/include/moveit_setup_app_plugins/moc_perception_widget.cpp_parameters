@@ -1,0 +1,5 @@
+-DROS_PACKAGE_NAME="moveit_setup_app_plugins"
+-DQT_NO_KEYWORDS
+-o
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_app_plugins/include/moveit_setup_app_plugins/moc_perception_widget.cpp
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_app_plugins/include/moveit_setup_app_plugins/perception_widget.hpp

@@ -1,0 +1,135 @@
+[0.040s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_ros/warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse
+[0.097s] -- The C compiler identification is GNU 11.4.0
+[0.163s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.260s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.260s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.264s] -- Detecting CXX compiler ABI info
+[0.356s] -- Detecting CXX compiler ABI info - done
+[0.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.373s] -- Detecting CXX compile features
+[0.374s] -- Detecting CXX compile features - done
+[0.374s] -- Found moveit_common: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_common/share/moveit_common/cmake)
+[0.376s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.643s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.770s] [0mmoveit_ros_warehouse: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[0.772s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.819s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.833s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.847s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.905s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.976s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.981s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.079s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.104s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.167s] -- Looking for pthread.h
+[1.269s] -- Looking for pthread.h - found
+[1.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.430s] -- Found Threads: TRUE  
+[1.478s] -- Found moveit_core: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_core/share/moveit_core/cmake)
+[1.508s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.560s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[1.572s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.591s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[1.719s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.800s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.802s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.133s] -- Found warehouse_ros: 2.0.5 (/opt/ros/humble/share/warehouse_ros/cmake)
+[2.144s] -- Found moveit_ros_planning: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/share/moveit_ros_planning/cmake)
+[2.149s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.175s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.179s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[2.306s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[2.306s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[2.455s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[2.456s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[2.647s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[2.724s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.759s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.760s] -- Configured cppcheck include dirs: /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_ros/warehouse/include
+[2.760s] -- Configured cppcheck exclude dirs and/or files: 
+[2.761s] -- Added test 'lint_cmake' to check CMake code style
+[2.761s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.762s] -- Added test 'xmllint' to check XML markup files
+[2.765s] -- Configuring done
+[2.953s] -- Generating done
+[2.979s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse
+[3.011s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_ros/warehouse -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse
+[3.019s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse -- -j4 -l4
+[3.178s] [  5%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/moveit_message_storage.cpp.o[0m
+[3.188s] [ 10%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_storage.cpp.o[0m
+[4.221s] [ 15%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/constraints_storage.cpp.o[0m
+[5.271s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/planning_scene_world_storage.cpp.o[0m
+[47.610s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/warehouse_connector.cpp.o[0m
+[48.848s] [ 30%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/state_storage.cpp.o[0m
+[56.441s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_warehouse.dir/src/trajectory_constraints_storage.cpp.o[0m
+[63.339s] [ 40%] [32m[1mLinking CXX shared library libmoveit_warehouse.so[0m
+[64.234s] [ 40%] Built target moveit_warehouse
+[64.264s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_broadcast.dir/src/broadcast.cpp.o[0m
+[80.127s] [ 50%] [32m[1mLinking CXX executable moveit_warehouse_broadcast[0m
+[80.447s] [ 50%] Built target moveit_warehouse_broadcast
+[80.472s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_save_as_text.dir/src/save_as_text.cpp.o[0m
+[95.296s] [ 60%] [32m[1mLinking CXX executable moveit_warehouse_save_as_text[0m
+[95.764s] [ 60%] Built target moveit_warehouse_save_as_text
+[95.802s] [ 65%] [32mBuilding CXX object CMakeFiles/moveit_init_demo_warehouse.dir/src/initialize_demo_db.cpp.o[0m
+[111.126s] [ 70%] [32m[1mLinking CXX executable moveit_init_demo_warehouse[0m
+[111.553s] [ 70%] Built target moveit_init_demo_warehouse
+[111.579s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_services.dir/src/warehouse_services.cpp.o[0m
+[124.182s] [ 80%] [32m[1mLinking CXX executable moveit_warehouse_services[0m
+[124.698s] [ 80%] Built target moveit_warehouse_services
+[124.763s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_warehouse_import_from_text.dir/src/import_from_text.cpp.o[0m
+[141.777s] [ 90%] [32m[1mLinking CXX executable moveit_warehouse_import_from_text[0m
+[142.313s] [ 90%] Built target moveit_warehouse_import_from_text
+[142.342s] [ 95%] [32mBuilding CXX object CMakeFiles/moveit_save_to_warehouse.dir/src/save_to_warehouse.cpp.o[0m
+[178.618s] [100%] [32m[1mLinking CXX executable moveit_save_to_warehouse[0m
+[179.209s] [100%] Built target moveit_save_to_warehouse
+[179.325s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse -- -j4 -l4
+[179.331s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse
+[179.338s] -- Install configuration: "Release"
+[179.339s] -- Execute custom install script
+[179.341s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_save_to_warehouse
+[179.371s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_broadcast
+[179.397s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_import_from_text
+[179.417s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_save_as_text
+[179.433s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_init_demo_warehouse
+[179.453s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/moveit_ros_warehouse/moveit_warehouse_services
+[179.480s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit/warehouse/constraints_storage.h
+[179.507s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit/warehouse/moveit_message_storage.h
+[179.529s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_storage.h
+[179.552s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit/warehouse/planning_scene_world_storage.h
+[179.579s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit/warehouse/state_storage.h
+[179.604s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit/warehouse/trajectory_constraints_storage.h
+[179.628s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit/warehouse/warehouse_connector.h
+[179.652s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/include/moveit_warehouse_export.h
+[179.670s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.sh
+[179.689s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/library_path.dsv
+[179.713s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/ament_index/resource_index/package_run_dependencies/moveit_ros_warehouse
+[179.731s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/ament_index/resource_index/parent_prefix_path/moveit_ros_warehouse
+[179.748s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.sh
+[179.757s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/ament_prefix_path.dsv
+[179.774s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.sh
+[179.793s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/environment/path.dsv
+[179.810s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.bash
+[179.819s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.sh
+[179.828s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.zsh
+[179.837s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/local_setup.dsv
+[179.846s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.dsv
+[179.858s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/ament_index/resource_index/packages/moveit_ros_warehouse
+[179.863s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ConfigExtras.cmake
+[179.873s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_targets-extras.cmake
+[179.880s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/ament_cmake_export_dependencies-extras.cmake
+[179.887s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig.cmake
+[179.896s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/moveit_ros_warehouseConfig-version.cmake
+[179.904s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/package.xml
+[179.912s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.9
+[179.914s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so.2.5.9" to ""
+[179.914s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib/libmoveit_warehouse.so
+[179.914s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport.cmake
+[179.915s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/share/moveit_ros_warehouse/cmake/export_moveit_ros_warehouseExport-release.cmake
+[179.922s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_ros_warehouse

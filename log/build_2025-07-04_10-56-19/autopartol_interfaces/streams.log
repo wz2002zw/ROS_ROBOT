@@ -1,0 +1,204 @@
+[0.010s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces
+[0.128s] -- The C compiler identification is GNU 11.4.0
+[0.240s] -- The CXX compiler identification is GNU 11.4.0
+[0.256s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.380s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.387s] -- Detecting CXX compiler ABI info
+[0.541s] -- Detecting CXX compiler ABI info - done
+[0.554s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.554s] -- Detecting CXX compile features
+[0.554s] -- Detecting CXX compile features - done
+[0.560s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.898s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.030s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.094s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.142s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.152s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.171s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.185s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.244s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.785s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.780s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.783s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.834s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.838s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.838s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.838s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.880s] -- Found PythonExtra: .so  
+[2.965s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.991s] -- Configuring done
+[3.062s] -- Generating done
+[3.085s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces
+[3.111s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces
+[3.127s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces -- -j4 -l4
+[3.191s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.205s] [  3%] Built target ament_cmake_python_symlink_autopartol_interfaces
+[3.214s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.671s] running egg_info
+[3.671s] creating autopartol_interfaces.egg-info
+[3.671s] writing autopartol_interfaces.egg-info/PKG-INFO
+[3.671s] writing dependency_links to autopartol_interfaces.egg-info/dependency_links.txt
+[3.671s] writing top-level names to autopartol_interfaces.egg-info/top_level.txt
+[3.671s] writing manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[3.671s] reading manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[3.673s] writing manifest file 'autopartol_interfaces.egg-info/SOURCES.txt'
+[3.767s] [  6%] Built target ament_cmake_python_build_autopartol_interfaces_egg
+[4.020s] [  6%] Built target autopartol_interfaces__cpp
+[4.046s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.067s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.067s] [ 16%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_generator_c.dir/rosidl_generator_c/autopartol_interfaces/srv/detail/speech_text__functions.c.o[0m
+[4.067s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.300s] [ 22%] [32m[1mLinking C shared library libautopartol_interfaces__rosidl_generator_c.so[0m
+[4.437s] [ 22%] Built target autopartol_interfaces__rosidl_generator_c
+[4.470s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.741s] [ 29%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopartol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[4.812s] [ 32%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp.o[0m
+[4.889s] [ 35%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/autopartol_interfaces/srv/detail/speech_text__type_support.cpp.o[0m
+[5.158s] [ 38%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopartol_interfaces/srv/detail/speech_text__type_support_c.cpp.o[0m
+[5.602s] [ 41%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_cpp.so[0m
+[5.634s] [ 45%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[5.711s] [ 45%] Built target autopartol_interfaces__rosidl_typesupport_cpp
+[5.752s] [ 48%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.803s] [ 48%] Built target autopartol_interfaces__rosidl_typesupport_introspection_cpp
+[5.839s] [ 51%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.890s] [ 54%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.013s] [ 58%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[6.150s] [ 58%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_cpp
+[6.223s] [ 58%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_c
+[6.285s] [ 61%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/autopartol_interfaces/srv/detail/speech_text__type_support.c.o[0m
+[6.330s] [ 64%] [32mBuilding CXX object CMakeFiles/autopartol_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/autopartol_interfaces/srv/speech_text__type_support.cpp.o[0m
+[6.368s] [ 67%] [32m[1mLinking C shared library libautopartol_interfaces__rosidl_typesupport_introspection_c.so[0m
+[6.374s] [ 70%] [32m[1mLinking CXX shared library libautopartol_interfaces__rosidl_typesupport_c.so[0m
+[6.428s] [ 70%] Built target autopartol_interfaces__rosidl_typesupport_introspection_c
+[6.453s] [ 70%] Built target autopartol_interfaces__rosidl_typesupport_c
+[6.490s] [ 70%] Built target autopartol_interfaces
+[6.523s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.981s] [ 74%] Built target autopartol_interfaces__py
+[7.017s] [ 77%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_generator_py.dir/rosidl_generator_py/autopartol_interfaces/srv/_speech_text_s.c.o[0m
+[7.314s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/libautopartol_interfaces__rosidl_generator_py.so[0m
+[7.436s] [ 80%] Built target autopartol_interfaces__rosidl_generator_py
+[7.497s] [ 83%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.521s] [ 87%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.561s] [ 90%] [32mBuilding C object CMakeFiles/autopartol_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[7.749s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.763s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.828s] [100%] [32m[1mLinking C shared library rosidl_generator_py/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[7.834s] [100%] Built target autopartol_interfaces__rosidl_typesupport_introspection_c__pyext
+[7.842s] [100%] Built target autopartol_interfaces__rosidl_typesupport_c__pyext
+[7.869s] [100%] Built target autopartol_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[7.899s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces -- -j4 -l4
+[7.900s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces
+[7.914s] -- Install configuration: ""
+[7.914s] -- Execute custom install script
+[7.915s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/ament_index/resource_index/rosidl_interfaces/autopartol_interfaces
+[7.935s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_generator_c__visibility_control.h
+[7.954s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__functions.h
+[7.986s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__struct.h
+[8.012s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.h
+[8.029s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/speech_text.h
+[8.050s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/library_path.sh
+[8.071s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/library_path.dsv
+[8.100s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.125s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_c.h
+[8.146s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.172s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__builder.hpp
+[8.193s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__struct.hpp
+[8.209s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__traits.hpp
+[8.227s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__type_support.hpp
+[8.237s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/speech_text.hpp
+[8.252s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.264s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp
+[8.285s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.291s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_c.h
+[8.306s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/include/autopartol_interfaces/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_introspection_cpp.hpp
+[8.327s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/pythonpath.sh
+[8.339s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/pythonpath.dsv
+[8.350s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[8.376s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[8.401s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[8.428s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[8.448s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/__init__.py
+[8.462s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_c.c
+[8.472s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.489s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/_autopartol_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[8.508s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.528s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.545s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.553s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/libautopartol_interfaces__rosidl_generator_py.so
+[8.571s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/__init__.py
+[8.595s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text.py
+[8.623s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text_s.c
+[8.635s] -- Up-to-date symlink: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.635s] -- Up-to-date symlink: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.635s] -- Up-to-date symlink: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/autopartol_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.635s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText.idl
+[8.645s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText.srv
+[8.656s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText_Request.msg
+[8.675s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/srv/SpeechText_Response.msg
+[8.707s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/ament_index/resource_index/package_run_dependencies/autopartol_interfaces
+[8.730s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/ament_index/resource_index/parent_prefix_path/autopartol_interfaces
+[8.742s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/ament_prefix_path.sh
+[8.752s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/ament_prefix_path.dsv
+[8.764s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/path.sh
+[8.785s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/environment/path.dsv
+[8.802s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.bash
+[8.825s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.sh
+[8.848s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.zsh
+[8.871s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/local_setup.dsv
+[8.892s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/package.dsv
+[8.910s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/ament_index/resource_index/packages/autopartol_interfaces
+[8.927s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.947s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.956s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.967s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.977s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.988s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.000s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.017s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfacesConfig.cmake
+[9.031s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfacesConfig-version.cmake
+[9.042s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/package.xml
+[9.056s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_c.so
+[9.057s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_c.so" to ""
+[9.057s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_c.so
+[9.057s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[9.058s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[9.058s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.058s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_c.so
+[9.058s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[9.060s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_c.so
+[9.060s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_c.so" to ""
+[9.060s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_cpp.so
+[9.060s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[9.060s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_cpp.so
+[9.060s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_typesupport_cpp.so" to ""
+[9.120s] Listing '/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces'...
+[9.120s] Compiling '/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/__init__.py'...
+[9.121s] Listing '/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv'...
+[9.121s] Compiling '/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/__init__.py'...
+[9.121s] Compiling '/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/local/lib/python3.10/dist-packages/autopartol_interfaces/srv/_speech_text.py'...
+[9.132s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_py.so
+[9.132s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/lib/libautopartol_interfaces__rosidl_generator_py.so" to ""
+[9.132s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cExport.cmake
+[9.132s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cExport-noconfig.cmake
+[9.132s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[9.132s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.132s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_cppExport.cmake
+[9.132s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.134s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cExport.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cppExport.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/autopartol_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_pyExport.cmake
+[9.135s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/autopartol_interfaces/share/autopartol_interfaces/cmake/export_autopartol_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[9.151s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces

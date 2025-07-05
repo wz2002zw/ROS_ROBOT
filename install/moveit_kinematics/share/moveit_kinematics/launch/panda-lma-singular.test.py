@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_kinematics/test/launch/panda-lma-singular.test.py

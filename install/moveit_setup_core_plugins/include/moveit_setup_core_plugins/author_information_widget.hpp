@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_core_plugins/include/moveit_setup_core_plugins/author_information_widget.hpp

@@ -1,0 +1,29 @@
+[1.421s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_robot': PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/build --no-deps symlink_data
+[1.868s] running develop
+[2.209s] running egg_info
+[2.209s] creating autopartol_robot.egg-info
+[2.209s] writing autopartol_robot.egg-info/PKG-INFO
+[2.209s] writing dependency_links to autopartol_robot.egg-info/dependency_links.txt
+[2.209s] writing entry points to autopartol_robot.egg-info/entry_points.txt
+[2.209s] writing requirements to autopartol_robot.egg-info/requires.txt
+[2.209s] writing top-level names to autopartol_robot.egg-info/top_level.txt
+[2.209s] writing manifest file 'autopartol_robot.egg-info/SOURCES.txt'
+[2.215s] reading manifest file 'autopartol_robot.egg-info/SOURCES.txt'
+[2.215s] writing manifest file 'autopartol_robot.egg-info/SOURCES.txt'
+[2.215s] running build_ext
+[2.215s] Creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/python3.10/site-packages/autopartol-robot.egg-link (link to .)
+[2.215s] Installing partol_node script to /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/autopartol_robot
+[2.215s] Installing speaker script to /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/autopartol_robot
+[2.215s] 
+[2.215s] Installed /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot
+[2.215s] running symlink_data
+[2.215s] creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index
+[2.215s] creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index/resource_index
+[2.215s] creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index/resource_index/packages
+[2.215s] symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/resource/autopartol_robot -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/ament_index/resource_index/packages
+[2.215s] symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/package.xml -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot
+[2.215s] creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/launch
+[2.215s] symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/launch/autopartol.launch.py -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/launch
+[2.215s] creating /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/config
+[2.215s] symbolically linking /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/config/partol_config.yaml -> /home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/share/autopartol_robot/config
+[2.266s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/autopartol_robot' returned '0': PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wz/Desktop/ROS_ROBOT/install/autopartol_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wz/Desktop/ROS_ROBOT/build/autopartol_robot/build --no-deps symlink_data

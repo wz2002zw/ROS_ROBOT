@@ -1,0 +1,10 @@
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/uninstall.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/moveit_setup_framework_uninstall.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/moveit_setup_framework.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/test.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/edit_cache.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/rebuild_cache.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/list_install_components.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/install.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/install/local.dir
+/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_framework/CMakeFiles/install/strip.dir

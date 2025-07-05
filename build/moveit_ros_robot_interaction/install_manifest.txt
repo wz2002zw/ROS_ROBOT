@@ -1,0 +1,4 @@
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so.2.5.9
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib/libmoveit_robot_interaction.so
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport.cmake
+/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/share/moveit_ros_robot_interaction/cmake/export_moveit_ros_robot_interactionExport-release.cmake

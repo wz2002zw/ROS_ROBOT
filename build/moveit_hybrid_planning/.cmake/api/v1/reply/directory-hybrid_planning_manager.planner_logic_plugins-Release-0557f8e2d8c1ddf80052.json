@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "hybrid_planning_manager/planner_logic_plugins",
+		"source" : "hybrid_planning_manager/planner_logic_plugins"
+	}
+}

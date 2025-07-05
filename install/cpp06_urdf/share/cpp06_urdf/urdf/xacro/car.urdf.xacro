@@ -1,14 +1,1 @@
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="car">
-    <xacro:include filename="car_base.urdf.xacro"/>
-    <xacro:include filename="car_camera.urdf.xacro"/>
-    <xacro:include filename="car_laser.urdf.xacro"/>
-    <xacro:include filename="car_imu.urdf.xacro"/>
-    <xacro:include filename="car_caster.urdf.xacro"/>
-    <!-- <xacro:include filename="gazebo_control_plugin.xacro"/> -->
-    <xacro:include filename="gazebo_sensor_plugin.xacro"/>
-    <xacro:include filename="car_control.urdf.xacro"/>
-    <xacro:imu_xacro xyz="0 0 0.02" />
-    <!-- <xacro:gazebo_control_plugin /> -->
-    <xacro:gazebo_sensor_plugin />
-    <xacro:car_control />
-</robot>
+/home/wz/Desktop/ROS_ROBOT/src/cpp06_urdf/urdf/xacro/car.urdf.xacro

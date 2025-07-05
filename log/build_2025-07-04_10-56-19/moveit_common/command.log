@@ -1,0 +1,6 @@
+Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_common
+Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_common
+Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_common -- -j4 -l4
+Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_common -- -j4 -l4
+Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_common': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_common
+Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_common' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_common

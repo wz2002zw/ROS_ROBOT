@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wz/Desktop/ROS_ROBOT/build/moveit_planners_ompl/ompl_interface/generate_state_database" "TARGETS" "moveit_generate_state_database" "RUNTIME_DESTINATION" "lib/moveit_planners_ompl")

@@ -1,12 +1,12 @@
 CMakeFiles/autopartol_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp.o: \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/srv/detail/dds_fastrtps/speech_text__type_support.cpp \
  /usr/include/stdc-predef.h \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/srv/detail/speech_text__rosidl_typesupport_fastrtps_cpp.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
- /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_cpp/autopartol_interfaces/srv/detail/speech_text__struct.hpp \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_typesupport_fastrtps_cpp/autopartol_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h \
+ /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_cpp/autopartol_interfaces/srv/detail/speech_text__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

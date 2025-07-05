@@ -1,0 +1,192 @@
+[0.050s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins
+[0.151s] -- The C compiler identification is GNU 11.4.0
+[0.239s] -- The CXX compiler identification is GNU 11.4.0
+[0.248s] -- Detecting C compiler ABI info
+[0.363s] -- Detecting C compiler ABI info - done
+[0.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.371s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.497s] -- Detecting CXX compiler ABI info - done
+[0.520s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.525s] -- Detecting CXX compile features
+[0.525s] -- Detecting CXX compile features - done
+[0.534s] -- Found moveit_common: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_common/share/moveit_common/cmake)
+[0.538s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.780s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.919s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.083s] [0mmoveit_setup_srdf_plugins: You did not request a specific build type: Choosing 'Release' for maximum performance[0m
+[1.086s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.112s] -- Found moveit_setup_framework: 2.5.9 (/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/share/moveit_setup_framework/cmake)
+[1.210s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.229s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.245s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.292s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.368s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.377s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.496s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.541s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.585s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.595s] -- Looking for pthread.h
+[1.750s] -- Looking for pthread.h - found
+[1.750s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.902s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.902s] -- Found Threads: TRUE  
+[2.070s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.137s] -- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.153s] -- Found rclcpp_lifecycle: 16.0.12 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.182s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.323s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.406s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.406s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.767s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[2.796s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+[2.814s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[2.841s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[2.869s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[2.953s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[2.954s] -- Found OGRE
+[2.954s] --   static     : OFF
+[2.954s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[2.954s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.955s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[2.955s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[2.955s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[2.955s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[2.955s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[2.955s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.956s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[2.956s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.957s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[2.959s] -- Could not find freeimage library
+[2.982s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.985s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.118s] -- Found X11: /usr/include   
+[3.118s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.263s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.263s] -- Looking for gethostbyname
+[3.405s] -- Looking for gethostbyname - found
+[3.406s] -- Looking for connect
+[3.555s] -- Looking for connect - found
+[3.555s] -- Looking for remove
+[3.704s] -- Looking for remove - found
+[3.706s] -- Looking for shmat
+[3.851s] -- Looking for shmat - found
+[3.851s] -- Looking for IceConnectionNumber in ICE
+[3.992s] -- Looking for IceConnectionNumber in ICE - found
+[4.031s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[4.208s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.259s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.276s] -- Added test 'lint_cmake' to check CMake code style
+[4.279s] -- Added test 'xmllint' to check XML markup files
+[4.284s] -- Configuring done
+[4.392s] -- Generating done
+[4.433s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins
+[4.484s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins
+[4.488s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins -- -j4 -l4
+[4.660s] [  2%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_virtual_joints_widget.cpp[0m
+[4.660s] [  4%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_collision_linear_model.cpp[0m
+[4.696s] [  8%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_collision_matrix_model.cpp[0m
+[4.696s] [  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.706s] [ 10%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_default_collisions_widget.cpp[0m
+[4.749s] [ 12%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_end_effectors_widget.cpp[0m
+[4.785s] [ 14%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_group_edit_widget.cpp[0m
+[4.820s] [ 16%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_kinematic_chain_widget.cpp[0m
+[4.877s] [ 18%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_passive_joints_widget.cpp[0m
+[4.904s] [ 20%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_planning_groups_widget.cpp[0m
+[4.971s] [ 22%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_robot_poses_widget.cpp[0m
+[5.032s] [ 25%] [34m[1mGenerating include/moveit_setup_srdf_plugins/moc_rotated_header_view.cpp[0m
+[5.067s] /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_setup_assistant/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/rotated_header_view.hpp:0: Note: No relevant classes found. No output generated.
+[5.166s] [ 27%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/collision_matrix_model.cpp.o[0m
+[5.170s] [ 29%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/collision_linear_model.cpp.o[0m
+[8.227s] [ 31%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[8.315s] [ 31%] Built target gtest_main
+[12.722s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions.cpp.o[0m
+[33.164s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/default_collisions_widget.cpp.o[0m
+[51.800s] [ 37%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors.cpp.o[0m
+[63.369s] [ 39%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/end_effectors_widget.cpp.o[0m
+[81.360s] [ 41%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_edit_widget.cpp.o[0m
+[96.335s] [ 43%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/group_meta_config.cpp.o[0m
+[101.584s] [ 45%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/kinematic_chain_widget.cpp.o[0m
+[118.276s] [ 47%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints.cpp.o[0m
+[128.550s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/passive_joints_widget.cpp.o[0m
+[140.595s] [ 52%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups.cpp.o[0m
+[154.621s] [ 54%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/planning_groups_widget.cpp.o[0m
+[169.495s] [ 56%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses.cpp.o[0m
+[179.536s] [ 58%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/robot_poses_widget.cpp.o[0m
+[191.702s] [ 60%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/rotated_header_view.cpp.o[0m
+[192.914s] [ 62%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints.cpp.o[0m
+[200.607s] [ 64%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/virtual_joints_widget.cpp.o[0m
+[212.724s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_collision_linear_model.cpp.o[0m
+[213.678s] [ 68%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_collision_matrix_model.cpp.o[0m
+[214.541s] [ 70%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_default_collisions_widget.cpp.o[0m
+[225.565s] [ 72%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_end_effectors_widget.cpp.o[0m
+[225.917s] [ 75%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/src/compute_default_collisions.cpp.o[0m
+[227.940s] [ 77%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_group_edit_widget.cpp.o[0m
+[238.614s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_passive_joints_widget.cpp.o[0m
+[240.627s] [ 81%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_planning_groups_widget.cpp.o[0m
+[242.640s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_kinematic_chain_widget.cpp.o[0m
+[249.944s] [ 85%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_robot_poses_widget.cpp.o[0m
+[252.634s] [ 87%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_rotated_header_view.cpp.o[0m
+[252.659s] [ 89%] [32mBuilding CXX object CMakeFiles/moveit_setup_srdf_plugins.dir/include/moveit_setup_srdf_plugins/moc_virtual_joints_widget.cpp.o[0m
+[263.714s] [ 91%] [32m[1mLinking CXX shared library libmoveit_setup_srdf_plugins.so[0m
+[264.227s] [ 91%] Built target moveit_setup_srdf_plugins
+[264.249s] [ 93%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[270.242s] [ 95%] [32m[1mLinking CXX static library libgtest.a[0m
+[270.282s] [ 95%] Built target gtest
+[270.303s] [ 97%] [32mBuilding CXX object CMakeFiles/test_srdf.dir/test/test_srdf.cpp.o[0m
+[282.426s] [100%] [32m[1mLinking CXX executable test_srdf[0m
+[282.977s] [100%] Built target test_srdf
+[282.989s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins -- -j4 -l4
+[282.989s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins
+[282.995s] -- Install configuration: "Release"
+[282.996s] -- Execute custom install script
+[282.996s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/moveit_setup_framework_plugins.xml
+[283.005s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_linear_model.hpp
+[283.012s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/collision_matrix_model.hpp
+[283.021s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/compute_default_collisions.hpp
+[283.028s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions.hpp
+[283.036s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/default_collisions_widget.hpp
+[283.043s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors.hpp
+[283.052s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/end_effectors_widget.hpp
+[283.059s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_edit_widget.hpp
+[283.067s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/group_meta_config.hpp
+[283.075s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/kinematic_chain_widget.hpp
+[283.082s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints.hpp
+[283.089s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/passive_joints_widget.hpp
+[283.096s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups.hpp
+[283.103s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/planning_groups_widget.hpp
+[283.110s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses.hpp
+[283.117s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/robot_poses_widget.hpp
+[283.125s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/rotated_header_view.hpp
+[283.133s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/srdf_step.hpp
+[283.140s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints.hpp
+[283.148s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/include/moveit_setup_srdf_plugins/virtual_joints_widget.hpp
+[283.156s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.sh
+[283.163s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/library_path.dsv
+[283.170s] -- Up-to-date symlink: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins//moveit_setup_framework_plugins.xml
+[283.170s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/package_run_dependencies/moveit_setup_srdf_plugins
+[283.178s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/parent_prefix_path/moveit_setup_srdf_plugins
+[283.188s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.sh
+[283.199s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/ament_prefix_path.dsv
+[283.209s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.sh
+[283.217s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/environment/path.dsv
+[283.227s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.bash
+[283.238s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.sh
+[283.250s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.zsh
+[283.263s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/local_setup.dsv
+[283.274s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.dsv
+[283.283s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/packages/moveit_setup_srdf_plugins
+[283.292s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/ament_index/resource_index/moveit_setup_framework__pluginlib__plugin/moveit_setup_srdf_plugins
+[283.302s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[283.310s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[283.318s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[283.326s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig.cmake
+[283.333s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/moveit_setup_srdf_pluginsConfig-version.cmake
+[283.341s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/package.xml
+[283.349s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so
+[283.350s] -- Set runtime path of "/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/lib/libmoveit_setup_srdf_plugins.so" to ""
+[283.351s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport.cmake
+[283.351s] -- Installing: /home/wz/Desktop/ROS_ROBOT/install/moveit_setup_srdf_plugins/share/moveit_setup_srdf_plugins/cmake/export_moveit_setup_srdf_pluginsExport-release.cmake
+[283.353s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins' returned '0': AMENT_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor:/home/wz/Desktop/ROS_ROBOT/install/moveit_core:/home/wz/Desktop/ROS_ROBOT/install/moveit_common:/opt/ros/humble LD_LIBRARY_PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_setup_framework/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_visualization/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning_interface/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_move_group/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_warehouse/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_robot_interaction/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_planners_ompl/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_kinematics/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_planning/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_simple_controller_manager/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_ros_occupancy_map_monitor/lib:/home/wz/Desktop/ROS_ROBOT/install/moveit_core/lib:${LD_LIBRARY_PATH} PATH=/home/wz/Desktop/ROS_ROBOT/install/moveit_core/bin:${PATH} PYTHONPATH=/home/wz/Desktop/ROS_ROBOT/build/moveit_configs_utils:/home/wz/Desktop/ROS_ROBOT/install/moveit_configs_utils/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_setup_srdf_plugins

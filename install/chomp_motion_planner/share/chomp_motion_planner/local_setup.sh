@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/build/chomp_motion_planner/ament_cmake_environment_hooks/local_setup.sh

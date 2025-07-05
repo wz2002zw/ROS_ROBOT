@@ -1,0 +1,1 @@
+/home/wz/Desktop/ROS_ROBOT/build/moveit_ros_robot_interaction/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cached_ik_kinematics_plugin",
+		"source" : "cached_ik_kinematics_plugin"
+	}
+}

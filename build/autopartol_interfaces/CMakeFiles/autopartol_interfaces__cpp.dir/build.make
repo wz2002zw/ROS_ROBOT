@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wz/Desktop/NanoRobot/src/autopartol_interfaces
+CMAKE_SOURCE_DIR = /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wz/Desktop/NanoRobot/build/autopartol_interfaces
+CMAKE_BINARY_DIR = /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces
 
 # Utility rule file for autopartol_interfaces__cpp.
 
@@ -91,8 +91,8 @@ rosidl_generator_cpp/autopartol_interfaces/srv/speech_text.hpp: /opt/ros/humble/
 rosidl_generator_cpp/autopartol_interfaces/srv/speech_text.hpp: rosidl_adapter/autopartol_interfaces/srv/SpeechText.idl
 rosidl_generator_cpp/autopartol_interfaces/srv/speech_text.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/autopartol_interfaces/srv/speech_text.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/autopartol_interfaces/srv/detail/speech_text__builder.hpp: rosidl_generator_cpp/autopartol_interfaces/srv/speech_text.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/autopartol_interfaces/srv/detail/speech_text__builder.hpp
@@ -124,6 +124,6 @@ CMakeFiles/autopartol_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/autopartol_interfaces__cpp.dir/clean
 
 CMakeFiles/autopartol_interfaces__cpp.dir/depend:
-	cd /home/wz/Desktop/NanoRobot/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/NanoRobot/src/autopartol_interfaces /home/wz/Desktop/NanoRobot/src/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces /home/wz/Desktop/NanoRobot/build/autopartol_interfaces/CMakeFiles/autopartol_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/src/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces /home/wz/Desktop/ROS_ROBOT/build/autopartol_interfaces/CMakeFiles/autopartol_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/autopartol_interfaces__cpp.dir/depend
 

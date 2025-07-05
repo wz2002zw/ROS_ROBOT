@@ -1,0 +1,58 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"/opt/ros/humble/src/gtest_vendor/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"id" : "gtest_main_autogen::@0af4add9fe94340e763e",
+	"isGeneratorProvided" : true,
+	"name" : "gtest_main_autogen",
+	"paths" : 
+	{
+		"build" : "gtest",
+		"source" : "/opt/ros/humble/src/gtest_vendor"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_controllers/gtest/CMakeFiles/gtest_main_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wz/Desktop/ROS_ROBOT/build/moveit_setup_controllers/gtest/CMakeFiles/gtest_main_autogen.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

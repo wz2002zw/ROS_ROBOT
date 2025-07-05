@@ -1,0 +1,62 @@
+[0.235s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/test_configs/prbt_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support
+[0.433s] -- The C compiler identification is GNU 11.4.0
+[0.512s] -- The CXX compiler identification is GNU 11.4.0
+[0.531s] -- Detecting C compiler ABI info
+[0.615s] -- Detecting C compiler ABI info - done
+[0.633s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.633s] -- Detecting C compile features
+[0.633s] -- Detecting C compile features - done
+[0.639s] -- Detecting CXX compiler ABI info
+[0.755s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.767s] -- Detecting CXX compile features
+[0.767s] -- Detecting CXX compile features - done
+[0.771s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.976s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.061s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.145s] -- Configuring done
+[1.146s] -- Generating done
+[1.147s] -- Build files have been written to: /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support
+[1.160s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wz/Desktop/ROS_ROBOT/src/moveit2/moveit_planners/test_configs/prbt_support -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support
+[1.163s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support -- -j4 -l4
+[1.208s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support -- -j4 -l4
+[1.209s] Invoking command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support
+[1.218s] -- Install configuration: ""
+[1.218s] -- Execute custom install script
+[1.218s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/ament_index/resource_index/package_run_dependencies/moveit_resources_prbt_support
+[1.229s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/ament_index/resource_index/parent_prefix_path/moveit_resources_prbt_support
+[1.238s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.sh
+[1.246s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/ament_prefix_path.dsv
+[1.257s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.sh
+[1.267s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/environment/path.dsv
+[1.281s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.bash
+[1.289s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.sh
+[1.297s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.zsh
+[1.318s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/local_setup.dsv
+[1.331s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.dsv
+[1.341s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/ament_index/resource_index/packages/moveit_resources_prbt_support
+[1.349s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig.cmake
+[1.359s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/cmake/moveit_resources_prbt_supportConfig-version.cmake
+[1.369s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/package.xml
+[1.376s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.ros2_control.xacro
+[1.386s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt.xacro
+[1.394s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/prbt_macro.xacro
+[1.419s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/urdf/simple_gripper_brackets.urdf.xacro
+[1.437s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.dae
+[1.447s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/flange.stl
+[1.455s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.dae
+[1.470s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/foot.stl
+[1.481s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.dae
+[1.486s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_1.stl
+[1.494s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.dae
+[1.502s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_2.stl
+[1.509s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.dae
+[1.520s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_3.stl
+[1.527s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.dae
+[1.537s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_4.stl
+[1.550s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.dae
+[1.554s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/meshes/link_5.stl
+[1.560s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_controller.yaml
+[1.571s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/manipulator_driver.yaml
+[1.581s] -- Symlinking: /home/wz/Desktop/ROS_ROBOT/install/moveit_resources_prbt_support/share/moveit_resources_prbt_support/config/prbt_0_1.dcf
+[1.606s] Invoked command in '/home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wz/Desktop/ROS_ROBOT/build/moveit_resources_prbt_support

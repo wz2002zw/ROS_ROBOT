@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wz/Desktop/NanoRobot/src/car_navigation2
+CMAKE_SOURCE_DIR = /home/wz/Desktop/ROS_ROBOT/src/car_navigation2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wz/Desktop/NanoRobot/build/car_navigation2
+CMAKE_BINARY_DIR = /home/wz/Desktop/ROS_ROBOT/build/car_navigation2
 
 # Utility rule file for car_navigation2_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/car_navigation2_uninstall.dir/compiler_depend.make
 include CMakeFiles/car_navigation2_uninstall.dir/progress.make
 
 CMakeFiles/car_navigation2_uninstall:
-	/usr/bin/cmake -P /home/wz/Desktop/NanoRobot/build/car_navigation2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/wz/Desktop/ROS_ROBOT/build/car_navigation2/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 car_navigation2_uninstall: CMakeFiles/car_navigation2_uninstall
 car_navigation2_uninstall: CMakeFiles/car_navigation2_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/car_navigation2_uninstall.dir/clean:
 .PHONY : CMakeFiles/car_navigation2_uninstall.dir/clean
 
 CMakeFiles/car_navigation2_uninstall.dir/depend:
-	cd /home/wz/Desktop/NanoRobot/build/car_navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/NanoRobot/src/car_navigation2 /home/wz/Desktop/NanoRobot/src/car_navigation2 /home/wz/Desktop/NanoRobot/build/car_navigation2 /home/wz/Desktop/NanoRobot/build/car_navigation2 /home/wz/Desktop/NanoRobot/build/car_navigation2/CMakeFiles/car_navigation2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wz/Desktop/ROS_ROBOT/build/car_navigation2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wz/Desktop/ROS_ROBOT/src/car_navigation2 /home/wz/Desktop/ROS_ROBOT/src/car_navigation2 /home/wz/Desktop/ROS_ROBOT/build/car_navigation2 /home/wz/Desktop/ROS_ROBOT/build/car_navigation2 /home/wz/Desktop/ROS_ROBOT/build/car_navigation2/CMakeFiles/car_navigation2_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/car_navigation2_uninstall.dir/depend
 
