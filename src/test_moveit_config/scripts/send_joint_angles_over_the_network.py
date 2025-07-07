@@ -14,15 +14,17 @@ def create_json_frame(
     m_values: Optional[List[float]] = None,
     **kwargs
 ) -> str:
-    """创建JSON帧，直接使用角度制关节角度"""
+    """创建JSON帧，使用角度制关节角度并格式化为三位小数"""
     # 初始化8个参数为0
     full_m_values = [0.0] * 8
     
-    # 用提供的参数更新默认值（直接使用角度制）
     if m_values:
         for i, value in enumerate(m_values):
             if i < 8:  # 确保不超出范围
                 full_m_values[i] = value  # 直接使用角度值，不做转换
+    
+    # 格式化所有m参数为三位小数
+    formatted_m = [f"{val:.3f}" for val in full_m_values]
     
     payload = {
         "dsID": "www.hc-system.com.HCRemoteCommand",
@@ -32,14 +34,14 @@ def create_json_frame(
         "instructions": [{
             "oneshot": "0",
             "action": "4",
-            "m0": full_m_values[0],  # 直接使用数值，不转换为字符串
-            "m1": full_m_values[1],
-            "m2": full_m_values[2],
-            "m3": full_m_values[3],
-            "m4": full_m_values[4],
-            "m5": full_m_values[5],
-            "m6": full_m_values[6],
-            "m7": full_m_values[7],
+            "m0": formatted_m[0],  # 使用格式化后的字符串
+            "m1": formatted_m[1],
+            "m2": formatted_m[2],
+            "m3": formatted_m[3],
+            "m4": formatted_m[4],
+            "m5": formatted_m[5],
+            "m6": formatted_m[6],
+            "m7": formatted_m[7],
             "ckStatus": "0xFF",
             "speed": "80.0",
             "delay": "1.0",
