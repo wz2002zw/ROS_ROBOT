@@ -304,6 +304,8 @@ python3 moveit_ik_input.py
 | ik_path_paining_test     | 机械臂调用moveit里函数进行路径规划可视化调用了ik_mathematical_calculation_safe的逆运动学计算结果    | 需要结合demo.launch来使用       |
 | tcp_client_node      | 网络传输文本数据的测试版    | 需要结合网络调试助手进行测试      |
 | send_joint_angles_over_the_network      | 网络传输josn文本数据    | 调用了ik_mathematical_calculation_safe的逆运动学计算结果里的角度值，需要结合网络调试助手进行测试      |
+quaternion_mathematical_calculation_test      | 计算四元数测试代码    | 四元数用来表示机械臂末端的转动角度，直接输入x加角度即可，测试版，一次只能计算绕一个轴旋转的四元数，示例输入 x 45    |
+| quaternion_mathematical_calculation      | 计算四元数代码可计算多个轴旋转的四元数    | 四元数用来表示机械臂末端的转动角度，计算多个轴旋转的角度，输入示例x 60 y 60 z轴可输入也可不输入，不输入默认为零，x,y同理    |
 
 ## 需要了解的知识
 
