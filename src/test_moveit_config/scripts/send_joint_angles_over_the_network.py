@@ -85,7 +85,7 @@ def send_json_frames():
     target_poses[0].pose.position.x = 0.2
     target_poses[0].pose.position.y = 0.0
     target_poses[0].pose.position.z = 0.5
-    target_poses[0].pose.orientation.x = 0.0
+    target_poses[0].pose.orientation.x = 0.0 # 四元数
     target_poses[0].pose.orientation.y = 0.0
     target_poses[0].pose.orientation.z = 0.0
     target_poses[0].pose.orientation.w = 1.0

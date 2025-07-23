@@ -291,6 +291,47 @@ python3 moveit_ik_input.py
 
 确保第一个终端的命令完全启动后再运行第二个终端的命令，我写的代码需要在第一个终端命令运行后，才能调用moveit的接口，如果启动过早会卡在withing，关闭重新等第一个rvie页面加载出来再运行第二个终端的命令运行后终端会打印机械臂起始坐标值，转到rviz页面查看,机械臂就开始规划运动了
 
+### 封装成Api接口以便于在windows下调用
+
+下载依赖
+
+```.bash
+source /opt/ros/humble/setup.bash 
+#如果提示 pip3: command not found，先安装 pip：
+sudo apt update && sudo apt install python3-pip
+pip3 install pydantic
+```
+
+安装成功后，终端会显示类似信息
+Successfully installed pydantic-2.4.2 ...
+
+```.bash
+pip3 install fastapi uvicorn
+```
+
+### Api代码结构讲解
+
+```.tree
+├── Api/
+│   ├── __init__.py   ✅ 空文件
+│   ├── ik_Api.py
+│   ├── ik_node.py    ✅  封装 ROS 2 Node 与 IK 服务调用
+│   ├── models.py     ✅  定义输入数据结构（Pydantic 模型）
+```
+
+除了我上面特别注释的三个文件之外，其他文件都是封装的代码，具体请看代码
+ik_Api.py单独封装了一个调用逆运动学的代码
+运行指令
+需要到ROS_ROBOT/src/test_moveit_config这个路径下
+于此同时需要先启动 ros2 launch test_moveit_config demo.launch.py（具体启动步骤看上面）
+
+```.bash
+uvicorn Api.ik_Api:app --reload --host 0.0.0.0 --port 8000
+```
+
+运行成功后，在主机上打开浏览器访问 http://<你的虚拟机IP>:8000可以看到接口文档
+⚠️ 主机必须和虚拟机在同一个网段下才可以访问
+
 | 代码名     | 作用  | 描述       |
 | :------- | :---: | ---------: |
 | moveit_ik_demo     | 简单的运动学测试可视化代码    | 需要结合demo.launch来进行可视化，会有报错，不影响，这个只是测试代码为了看效果罢了       |
@@ -306,6 +347,7 @@ python3 moveit_ik_input.py
 | send_joint_angles_over_the_network      | 网络传输josn文本数据    | 调用了ik_mathematical_calculation_safe的逆运动学计算结果里的角度值，需要结合网络调试助手进行测试      |
 quaternion_mathematical_calculation_test      | 计算四元数测试代码    | 四元数用来表示机械臂末端的转动角度，直接输入x加角度即可，测试版，一次只能计算绕一个轴旋转的四元数，示例输入 x 45    |
 | quaternion_mathematical_calculation      | 计算四元数代码可计算多个轴旋转的四元数    | 四元数用来表示机械臂末端的转动角度，计算多个轴旋转的角度，输入示例x 60 y 60 z轴可输入也可不输入，不输入默认为零，x,y同理    |
+| ik_quaternion_combined      | 计算四元数代码并解算角度   | 先输入坐标点，接下来输入需要绕多个轴旋转的角度，直接输入角度即可，不转输入0，后续会进行自动计算，并打印在终端   |
 
 ## 需要了解的知识
 
