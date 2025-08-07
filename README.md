@@ -214,11 +214,7 @@ git clone -b humble https://github.com/ros-planning/moveit2_tutorials.git
 git clone -b humble https://github.com/ros-planning/moveit2.git
 ```
 
-# 2 下载rosdep
-``` bash
-sudo apt update
-sudo apt install python3-rosdep
-```
+# 2 编译工作空间
 
 ## 2.1 克隆我的工作空间
 ### 2.1.1  使用ssh进行克隆（使用https进行克隆经常会由于网络问题会失败）
@@ -245,8 +241,12 @@ source ~/.bashrc
 ```bash
 nano ~/.bashrc
 ```
-
-### 2.1.4 初始化 rosdep(每次要用rosdep必须初始化)
+### 2.1.4 下载rosdep
+``` bash
+sudo apt update
+sudo apt install python3-rosdep
+```
+### 2.1.5 初始化 rosdep(每次要用rosdep必须初始化)
 - rosdep若是出现网络问题可以试试下载小鱼的rosdepc，和之前下载ros2方法一样，若是使用rosdepc，就将后续的rosdep换成rosdepc即可。
 
 ``` bash
@@ -254,7 +254,7 @@ sudo rosdep init
 rosdep update
 ```
 
-### 2.1.5 安装依赖
+### 2.1.6 安装依赖
 
 ``` bash
 cd ~/Desktop/ROS_ROBOT
