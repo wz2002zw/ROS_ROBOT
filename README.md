@@ -360,6 +360,7 @@ quaternion_mathematical_calculation_test      | 计算四元数测试代码    |
 
 首先我来介绍一下这部分，原理非常简单，我们做ui界面，可以把需要的功能在ui界面上画出来，然后把想对应的功能与代码进行绑定即可。
 
+``` bash
 ├── __init__.py
 ├── main_window.py
 ├── __pycache__
@@ -373,10 +374,14 @@ quaternion_mathematical_calculation_test      | 计算四元数测试代码    |
     │   ├── __init__.cpython-310.pyc
     │   └── simulation_controls.cpython-310.pyc
     └── simulation_controls.py
+```
 
 __pycache__这个里面是运行生成的缓存，不必在意
+
 widgets这里面是存放各个模块的地方
+
 main_window.py这个是主窗口，可以把各个模块加入里面
+
 run.py这是ui界面的启动代码
 
 ik_widget.py 这是逆运动学模块
