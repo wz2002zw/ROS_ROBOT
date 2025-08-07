@@ -6,9 +6,41 @@
 
 - 让 VMware 虚拟机与宿主机（物理电脑）更好交互的必备工具，尤其对桌面环境用户非常重要。安装后通常需要重启虚拟机才能生效。
 ```bash
-sudo apt install open-vm-tools-desktop
+sudo apt update
+sudo apt install open-vm-tools open-vm-tools-desktop
 reboot
 ```
+- 但是你可能不能进行文件的拖拽与主机进行交互，若不能拖拽的话需要修改一些设置
+- 打开终端，输入：
+```bash
+echo $XDG_SESSION_TYPE
+```
+- 结果可能是：
+* `wayland` ❌ 拖拽不支持
+* `x11` ✅ 拖拽支持
+- 强制禁用 Wayland，使用 Xorg（Ubuntu 默认使用 GDM）
+-  编辑 GDM 配置文件
+```bash
+sudo nano /etc/gdm3/custom.conf
+```
+- 找到这行（一般是被注释掉的）：
+```bash
+#WaylandEnable=false
+```
+- 将其取消注释，变成：
+
+```bash
+WaylandEnable=false
+```
+- 然后保存并退出（按 `Ctrl + O` 保存，`Ctrl + X` 退出）。
+- 重启系统：
+```bash
+sudo reboot
+```
+```bash
+echo $XDG_SESSION_TYPE
+```
+确认现在是 `x11`。
 ### 1.1.2 调整桌面比例(按需调整大小，我的是1.5)
 
 ```bash
