@@ -1,5 +1,5 @@
 from PyQt6.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, 
-                             QHBoxLayout, QFrame, QLabel)
+                             QHBoxLayout, QFrame, QLabel, QScrollArea)
 from PyQt6.QtCore import Qt
 from PyQt6.QtGui import QFont
 from widgets.ik_widget import IKWidget  # 逆运动学模块
@@ -10,11 +10,11 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("ROS 机器人仿真控制系统")
-        self.setGeometry(100, 100, 800, 600)  # 设置初始窗口大小
+        self.setGeometry(100, 100, 600, 600)  # 缩短窗口宽度（从800→600）
         self.init_ui()
 
     def init_ui(self):
-        """初始化主窗口布局"""
+        """初始化主窗口布局，添加滚动区域"""
         # 中心部件：承载所有内容
         central_widget = QWidget()
         main_layout = QVBoxLayout(central_widget)
@@ -52,7 +52,22 @@ class MainWindow(QMainWindow):
         line.setFrameShadow(QFrame.Shadow.Sunken)
         main_layout.addWidget(line)
 
-        # 4. 添加逆运动学计算模块（带边框）
+        # 4. 添加滚动区域（用于逆运动学模块，支持滑动查看）
+        scroll_area = QScrollArea()
+        scroll_area.setWidgetResizable(True)  # 自适应内容大小
+        scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)  # 必要时显示水平滑条
+        scroll_area.setVerticalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)  # 必要时显示垂直滑条
+        scroll_area.setStyleSheet("""
+            QScrollArea {
+                border: none;  # 去掉滚动区域自带边框
+            }
+        """)
+
+        # 逆运动学模块容器（放在滚动区域内）
+        ik_container = QWidget()
+        ik_container_layout = QVBoxLayout(ik_container)
+        
+        # 逆运动学模块（带边框）
         ik_frame = QFrame()
         ik_frame.setFrameShape(QFrame.Shape.StyledPanel)
         ik_frame.setStyleSheet("""
@@ -66,9 +81,17 @@ class MainWindow(QMainWindow):
         ik_label = QLabel("逆运动学计算")
         ik_label.setFont(QFont("Arial", 10, QFont.Weight.Bold))
         ik_layout.addWidget(ik_label)
+        
+        # 添加逆运动学核心组件
         self.ik_widget = IKWidget()
         ik_layout.addWidget(self.ik_widget)
-        main_layout.addWidget(ik_frame, stretch=1)  # 让IK模块占更多空间
+        
+        # 将带边框的IK模块添加到容器
+        ik_container_layout.addWidget(ik_frame)
+        scroll_area.setWidget(ik_container)  # 将容器放入滚动区域
+
+        # 将滚动区域添加到主布局
+        main_layout.addWidget(scroll_area, stretch=1)
 
         # 设置中心部件
         self.setCentralWidget(central_widget)
