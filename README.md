@@ -172,13 +172,13 @@ code --version
 
 #### 1.8.6 安装vscode插件
 
-快捷键 ctrl+shift+x打开插件商店
-搜索插件名称，安装插件
-插件名称：chinese - Simplified Chinese（看自己需要，可以让vscode显示为中文,但在虚拟机里不能打中文，虚拟机要设置成英文，代码里除了注释，必须全部为英文），安装完重启vscode生效
-插件名称：C/C++，cmake,cmake-tools(如果你要用c语言写这是最基础的c语言插件）
-插件名称：python(直接在插件商店搜python下载第一个，里面自带三个python插件)
-插件名称：ros2(两个一个圆形图标，一个方形的都要下载)，urdf,XML,YAML
-插件名称：tongyilingma
+- 快捷键 ctrl+shift+x打开插件商店
+- 搜索插件名称，安装插件
+- 插件名称：chinese - Simplified Chinese（看自己需要，可以让vscode显示为中文,但在虚拟机里不能打中文，虚拟机要设置成英文，代码里除了注释，必须全部为英文），安装完重启vscode生效
+- 插件名称：C/C++，cmake,cmake-tools(如果你要用c语言写这是最基础的c语言插件）
+- 插件名称：python(直接在插件商店搜python下载第一个，里面自带三个python插件)
+- 插件名称：ros2(两个一个圆形图标，一个方形的都要下载)，urdf,XML,YAML
+- 插件名称：tongyilingma
 
 ## 1.9 安装 moveit2
 
