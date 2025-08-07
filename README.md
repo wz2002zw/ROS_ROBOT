@@ -130,7 +130,11 @@ cd ~/ros2_ws
 colcon build --packages-select my_first_pkg
 source install/setup.bash
 ```
-
+- 每次创建工作空间，我们都需要更新到.bashrc里面,同理，当删除这个工作空间的时候，我们的.bashrc里面添加的那行语句也需要删除。
+```bash
+echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
 ## 1.8 安装 vscode
 
 ### 1.8.1 下载 vscode
