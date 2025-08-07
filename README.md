@@ -449,29 +449,30 @@ quaternion_mathematical_calculation_test      | 计算四元数测试代码    |
     └── simulation_controls.py
 ```
 
-__pycache__这个里面是运行生成的缓存，不必在意
+- __pycache__这个里面是运行生成的缓存，不必在意
 
-widgets这里面是存放各个模块的地方
+- widgets这里面是存放各个模块的地方
 
-main_window.py这个是主窗口，可以把各个模块加入里面
+- main_window.py这个是主窗口，可以把各个模块加入里面
 
-run.py这是ui界面的启动代码
+- run.py这是ui界面的启动代码
 
-ik_widget.py 这是逆运动学模块
+- ik_widget.py 这是逆运动学模块
 
-这个里面直接调用ik_mathematical_calculation_safe，我之前写的逆运动学计算代码，把功能与其绑定
+- 这个里面直接调用ik_mathematical_calculation_safe，我之前写的逆运动学计算代码，把功能与其绑定
 
-分模块写的一个好处，每当哪块出错了，你能很快定位
+- 分模块写的一个好处，每当哪块出错了，你能很快定位
 
-simulation_controls.py 这是demo文件的一键启动模块
+- simulation_controls.py 这是demo文件的一键启动模块
 
 ### 2.5.2 使用方法
 
-使用方法，首先你得下pyQt6的库，我的ui界面是基于这个库做的，这个库非常好用，希望大家可以深入学习一下。
+- 使用方法，首先你得下pyQt6的库，我的ui界面是基于这个库做的，这个库非常好用，希望大家可以深入学习一下。
 
-打开一个新终端，输入以下命令
+- 打开一个新终端，输入以下命令
 
 ``` bash
+pip install PyQt6
 cd Desktop/ROS_ROBOT
 source install/setup.bash
 cd ~/Desktop/ROS_ROBOT/src/test_moveit_config/UI
