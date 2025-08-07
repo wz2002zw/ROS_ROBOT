@@ -10,7 +10,7 @@ sudo apt update
 sudo apt install open-vm-tools open-vm-tools-desktop
 reboot
 ```
-- 但是你可能不能进行文件的拖拽与主机进行交互，若不能拖拽的话需要修改一些设置
+- 若不能把文件夹或图片拖拽到主机的话需要修改一些设置
 - 打开终端，输入：
 ```bash
 echo $XDG_SESSION_TYPE
@@ -41,6 +41,8 @@ sudo reboot
 echo $XDG_SESSION_TYPE
 ```
 确认现在是 `x11`。
+- 若是需要共享文件夹的话需要关闭虚拟机，更改虚拟机设置，启动共享文件夹，再进入到虚拟机进行一些设置，再自行进行挂载。
+
 ### 1.1.2 调整桌面比例(按需调整大小，我的是1.5)
 
 ```bash
@@ -55,7 +57,7 @@ gsettings set org.gnome.desktop.interface text-scaling-factor 1.5
 ```
 ## 1.2 安装ros2 
 
-使用官方网站进行安装或者使用小鱼的一键安装（若使用小鱼一键安装只需要运行下面这条语句跟着提示进行操作即可，我的版本是ros2 humble版本，安装完成后跳转到'1.6'即可，小鱼一键安装使用的是国内源，若是国内源出现问题，需要换到官方源）
+使用官方网站进行安装或者使用小鱼的一键安装（若使用小鱼一键安装只需要运行下面这条语句跟着提示进行操作即可，我的版本是ros2 humble版本，安装完成后跳转到* `1.6`即可，小鱼一键安装使用的是国内源，若是国内源出现问题，需要换到官方源）
 ```bash
 wget http://fishros.com/install -O fishros && . fishros
 ```
