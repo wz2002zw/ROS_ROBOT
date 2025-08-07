@@ -227,7 +227,7 @@ sudo apt install python3-rosdep
 ssh-keygen -t ed25519 -C "dayangyouxia"
 cat ~/.ssh/id_ed25519.pub
 ```
-- 其中第一条语句里的" ",内容可以随便写，复制这段到你的GitHub上面，打开'settings'--左侧菜单栏选择'SSH and GPG keys'--点击右上角'New SSH key'--'Title'随便起英文名，'Key'里面粘贴上从虚拟机复制的密钥；这样我们就可以用git进行克隆了。
+- 其中第一条语句里的" ",内容可以随便写，复制这段到你的GitHub上面，打开'settings'--左侧菜单栏选择'SSH and GPG keys'--点击右上角'New SSH key'--'Title'随便起英文名，'Key'里面粘贴上从虚拟机复制的密钥；这样我们就可以用ssh进行克隆了。
 ### 2.1.2 克隆我的工作空间
 ```bash
 git clone git@github.com:wz2002zw/ROS_ROBOT.git
