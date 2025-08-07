@@ -23,7 +23,7 @@ gsettings set org.gnome.desktop.interface text-scaling-factor 1.5
 ```
 ## 1.2 安装ros2 
 
-使用官方网站进行安装或者使用小鱼的一键安装（若使用小鱼一键安装跳转到'1.6'即可，小鱼一键安装使用的是国内源，若是国内源出现问题，需要换到官方源）
+使用官方网站进行安装或者使用小鱼的一键安装（若使用小鱼一键安装只需要运行下面这条语句跟着提示进行操作即可，我的版本是ros2 humble版本，安装完成后跳转到'1.6'即可，小鱼一键安装使用的是国内源，若是国内源出现问题，需要换到官方源）
 ```bash
 wget http://fishros.com/install -O fishros && . fishros
 ```
