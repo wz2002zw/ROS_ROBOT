@@ -321,10 +321,12 @@ pip3 install fastapi uvicorn
 
 除了我上面特别注释的三个文件之外，其他文件都是封装的代码，具体请看代码
 ik_Api.py单独封装了一个调用逆运动学的代码
-运行指令
+
 需要到ROS_ROBOT/src/test_moveit_config这个路径下
+
 于此同时需要先启动 ros2 launch test_moveit_config demo.launch.py（具体启动步骤看上面）
 
+运行指令
 ```.bash
 uvicorn Api.ik_Api:app --reload --host 0.0.0.0 --port 8000
 ```
@@ -349,6 +351,59 @@ uvicorn Api.ik_Api:app --reload --host 0.0.0.0 --port 8000
 quaternion_mathematical_calculation_test      | 计算四元数测试代码    | 四元数用来表示机械臂末端的转动角度，直接输入x加角度即可，测试版，一次只能计算绕一个轴旋转的四元数，示例输入 x 45    |
 | quaternion_mathematical_calculation      | 计算四元数代码可计算多个轴旋转的四元数    | 四元数用来表示机械臂末端的转动角度，计算多个轴旋转的角度，输入示例x 60 y 60 z轴可输入也可不输入，不输入默认为零，x,y同理    |
 | ik_quaternion_combined      | 计算四元数代码并解算角度   | 先输入坐标点，接下来输入需要绕多个轴旋转的角度，直接输入角度即可，不转输入0，后续会进行自动计算，并打印在终端   |
+
+## ui
+
+对于一个真正的项目来说，每次开许多窗口，太不规范了，我也觉得这样做太烦人了，我们写代码的初衷就是为了便利自己，不能偏离，所以我设计这样一个ui界面，把之前的功能全加这个里面，可以直接在界面上操作
+
+### 介绍
+
+首先我来介绍一下这部分，原理非常简单，我们做ui界面，可以把需要的功能在ui界面上画出来，然后把想对应的功能与代码进行绑定即可。
+
+├── __init__.py
+├── main_window.py
+├── __pycache__
+│   └── main_window.cpython-310.pyc
+├── run.py
+└── widgets
+    ├── ik_widget.py
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── ik_widget.cpython-310.pyc
+    │   ├── __init__.cpython-310.pyc
+    │   └── simulation_controls.cpython-310.pyc
+    └── simulation_controls.py
+
+__pycache__这个里面是运行生成的缓存，不必在意
+widgets这里面是存放各个模块的地方
+main_window.py这个是主窗口，可以把各个模块加入里面
+run.py这是ui界面的启动代码
+
+ik_widget.py 这是逆运动学模块
+
+这个里面直接调用ik_mathematical_calculation_safe，我之前写的逆运动学计算代码，把功能与其绑定
+
+分模块写的一个好处，每当哪块出错了，你能很快定位
+
+simulation_controls.py 这是demo文件的一键启动模块
+
+### 使用方法
+
+使用方法，首先你得下pyQt6的库，我的ui界面是基于这个库做的，这个库非常好用，希望大家可以深入学习一下。
+
+打开一个新终端，输入以下命令
+
+``` bash
+cd Desktop/ROS_ROBOT
+source install/setup.bash
+cd ~/Desktop/ROS_ROBOT/src/test_moveit_config/UI
+clear
+python3 run.py
+```
+
+进入ui界面后需要先启动仿真，启动后会有一个弹窗，点击ok,要记住我们后续写代码的原理，我们是基于moveit的接口来写的，就像有句话说的，我们是站在巨人的肩膀上前进的，所以我们要感谢这些前辈，提供了这么方便的接口，所以我们实现的功能都是需要仿真启动的，启动后才会发布我们需要的节点，我们可以监听节点，以达到调用接口的方式。
+
+后面输入适当的坐标系数值，点击计算即可，计算结果会展示在界面上。
 
 ## 需要了解的知识
 
