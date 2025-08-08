@@ -45,7 +45,9 @@ echo $XDG_SESSION_TYPE
 ```bash
 sudo apt update
 sudo apt install libxcb-cursor0 -y
+```
 - 推荐一口气装齐所有常用 xcb 依赖
+```bash
 sudo apt install libx11-xcb1 libxcb1 libxcb-cursor0 libxcb-keysyms1 libxcb-image0 \
 libxcb-shm0 libxcb-icccm4 libxcb-render-util0 libxcb-xkb1 libxcb-xinerama0 \
 libxcb-randr0 libxcb-shape0 -y
