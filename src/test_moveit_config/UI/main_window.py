@@ -58,6 +58,24 @@ class MainWindow(QMainWindow):
         tab_widget = QTabWidget()
         tab_widget.setFont(QFont("Arial", 10))
 
+        # 4.2 四元数计算标签页
+        quat_tab = QWidget()
+        quat_tab_layout = QVBoxLayout(quat_tab)
+        
+        # 为四元数模块添加滚动区域
+        quat_scroll_area = QScrollArea()
+        quat_scroll_area.setWidgetResizable(True)
+        quat_scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
+        quat_scroll_area.setStyleSheet("QScrollArea { border: none; }")
+        
+        quat_container = QWidget()
+        quat_container_layout = QVBoxLayout(quat_container)
+        self.quaternion_widget = QuaternionWidget()
+        quat_container_layout.addWidget(self.quaternion_widget)
+        quat_scroll_area.setWidget(quat_container)
+        
+        quat_tab_layout.addWidget(quat_scroll_area)
+        tab_widget.addTab(quat_tab, "四元数计算")
         # 4.1 逆运动学标签页
         ik_tab = QWidget()
         ik_tab_layout = QVBoxLayout(ik_tab)
@@ -77,24 +95,7 @@ class MainWindow(QMainWindow):
         ik_tab_layout.addWidget(ik_scroll_area)
         tab_widget.addTab(ik_tab, "逆运动学计算")
 
-        # 4.2 四元数计算标签页
-        quat_tab = QWidget()
-        quat_tab_layout = QVBoxLayout(quat_tab)
-        
-        # 为四元数模块添加滚动区域
-        quat_scroll_area = QScrollArea()
-        quat_scroll_area.setWidgetResizable(True)
-        quat_scroll_area.setHorizontalScrollBarPolicy(Qt.ScrollBarPolicy.ScrollBarAsNeeded)
-        quat_scroll_area.setStyleSheet("QScrollArea { border: none; }")
-        
-        quat_container = QWidget()
-        quat_container_layout = QVBoxLayout(quat_container)
-        self.quaternion_widget = QuaternionWidget()
-        quat_container_layout.addWidget(self.quaternion_widget)
-        quat_scroll_area.setWidget(quat_container)
-        
-        quat_tab_layout.addWidget(quat_scroll_area)
-        tab_widget.addTab(quat_tab, "四元数计算")
+
 
         # 添加标签页到主布局
         main_layout.addWidget(tab_widget, stretch=1)
