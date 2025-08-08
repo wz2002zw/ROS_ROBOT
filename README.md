@@ -41,6 +41,16 @@ sudo reboot
 echo $XDG_SESSION_TYPE
 ```
 确认现在是 `x11`。
+- 运行 Qt 必须的依赖（xcb 系列）
+```bash
+sudo apt update
+sudo apt install libxcb-cursor0 -y
+- 推荐一口气装齐所有常用 xcb 依赖
+sudo apt install libx11-xcb1 libxcb1 libxcb-cursor0 libxcb-keysyms1 libxcb-image0 \
+libxcb-shm0 libxcb-icccm4 libxcb-render-util0 libxcb-xkb1 libxcb-xinerama0 \
+libxcb-randr0 libxcb-shape0 -y
+```
+- 这样就能进行正常的拖拽和打开后面的Qt程序了。
 - 若是需要共享文件夹的话需要关闭虚拟机，更改虚拟机设置，启动共享文件夹，再进入到虚拟机进行一些设置，再自行进行挂载。
 
 ### 1.1.2 调整桌面比例(按需调整大小，我的是1.5)
