@@ -10,51 +10,6 @@ sudo apt update
 sudo apt install open-vm-tools open-vm-tools-desktop
 reboot
 ```
-- 若不能把文件夹或图片拖拽到主机的话需要修改一些设置
-- 打开终端，输入：
-```bash
-echo $XDG_SESSION_TYPE
-```
-- 结果可能是：
-* `wayland` ❌ 拖拽不支持
-* `x11` ✅ 拖拽支持
-- 强制禁用 Wayland，使用 Xorg（Ubuntu 默认使用 GDM）
--  编辑 GDM 配置文件
-```bash
-sudo nano /etc/gdm3/custom.conf
-```
-- 找到这行（一般是被注释掉的）：
-```bash
-#WaylandEnable=false
-```
-- 将其取消注释，变成：
-
-```bash
-WaylandEnable=false
-```
-- 然后保存并退出（按 `Ctrl + O` 保存，`Ctrl + X` 退出）。
-- 重启系统：
-```bash
-sudo reboot
-```
-```bash
-echo $XDG_SESSION_TYPE
-```
-确认现在是 `x11`。
-- 运行 Qt 必须的依赖（xcb 系列）
-```bash
-sudo apt update
-sudo apt install libxcb-cursor0 -y
-```
-- 推荐一口气装齐所有常用 xcb 依赖
-```bash
-sudo apt install libx11-xcb1 libxcb1 libxcb-cursor0 libxcb-keysyms1 libxcb-image0 \
-libxcb-shm0 libxcb-icccm4 libxcb-render-util0 libxcb-xkb1 libxcb-xinerama0 \
-libxcb-randr0 libxcb-shape0 -y
-```
-- 这样就能进行正常的拖拽和打开后面的Qt程序了。
-- 若是需要共享文件夹的话需要关闭虚拟机，更改虚拟机设置，启动共享文件夹，再进入到虚拟机进行一些设置，再自行进行挂载。
-
 ### 1.1.2 调整桌面比例(按需调整大小，我的是1.5)
 
 ```bash
