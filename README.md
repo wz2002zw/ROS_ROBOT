@@ -440,17 +440,29 @@ quaternion_mathematical_calculation_test      | 计算四元数测试代码    |
 ├── __pycache__
 │   └── main_window.cpython-310.pyc
 ├── run.py
+├── video_and_photos
+│   ├── 1.gif
+│   ├── 1.jpg
+│   ├── 2.gif
+│   ├── 3.gif
+│   └── 4.gif
 └── widgets
     ├── ik_widget.py
     ├── __init__.py
     ├── __pycache__
     │   ├── ik_widget.cpython-310.pyc
     │   ├── __init__.cpython-310.pyc
-    │   └── simulation_controls.cpython-310.pyc
-    └── simulation_controls.py
+    │   ├── quaternion_widget.cpython-310.pyc
+    │   ├── simulation_controls.cpython-310.pyc
+    │   └── system_settings.cpython-310.pyc
+    ├── quaternion_widget.py
+    ├── simulation_controls.py
+    └── system_settings.py
 ```
 
 - __pycache__这个里面是运行生成的缓存，不必在意
+
+- video_and_photos 这里面存放启动动画的图片或者gif图或者视频，视频最好不要太长
 
 - widgets这里面是存放各个模块的地方
 
@@ -465,6 +477,8 @@ quaternion_mathematical_calculation_test      | 计算四元数测试代码    |
 - 分模块写的一个好处，每当哪块出错了，你能很快定位
 
 - simulation_controls.py 这是demo文件的一键启动模块
+
+- system_settings.py 系统设置页面，这个其实就是设置系统启动动画的页面设置，可以在里面自定义启动动画，动画的时长，这个动画就是好玩，我能玩一天，哈哈哈
 
 ### 2.5.2 使用方法
 
